@@ -10,3 +10,7 @@ export default function Title() {
     </h1>
   );
 }
+
+// Mint Edition
+// Mint Collection
+// Create Ask
