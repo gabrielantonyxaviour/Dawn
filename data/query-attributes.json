@@ -1,0 +1,3219 @@
+{
+  "aggregateAttributes": [
+    {
+      "traitType": "Background",
+      "valueMetrics": [
+        {
+          "value": "Sepia",
+          "count": 2,
+          "percent": 0.02
+        },
+        {
+          "value": "Rust",
+          "count": 798,
+          "percent": 8.18
+        },
+        {
+          "value": "Sea",
+          "count": 1236,
+          "percent": 12.66
+        },
+        {
+          "value": "Lavender",
+          "count": 1353,
+          "percent": 13.86
+        },
+        {
+          "value": "Moss",
+          "count": 1045,
+          "percent": 10.71
+        },
+        {
+          "value": "Peach",
+          "count": 960,
+          "percent": 9.84
+        },
+        {
+          "value": "Pink",
+          "count": 1642,
+          "percent": 16.82
+        },
+        {
+          "value": "Taupe",
+          "count": 1277,
+          "percent": 13.08
+        },
+        {
+          "value": "Plum",
+          "count": 1446,
+          "percent": 14.81
+        },
+        {
+          "value": "Sage",
+          "count": 1,
+          "percent": 0.01
+        },
+        {
+          "value": "Dusty Rose",
+          "count": 1,
+          "percent": 0.01
+        }
+      ]
+    },
+    {
+      "traitType": "Skin Tone",
+      "valueMetrics": [
+        {
+          "value": "Dawn",
+          "count": 1508,
+          "percent": 15.45
+        },
+        {
+          "value": "Dusk",
+          "count": 1302,
+          "percent": 13.34
+        },
+        {
+          "value": "Midnight",
+          "count": 1219,
+          "percent": 12.49
+        },
+        {
+          "value": "Day",
+          "count": 1443,
+          "percent": 14.78
+        },
+        {
+          "value": "Twilight",
+          "count": 1583,
+          "percent": 16.22
+        },
+        {
+          "value": "Night",
+          "count": 1330,
+          "percent": 13.63
+        },
+        {
+          "value": "Sunset",
+          "count": 1376,
+          "percent": 14.1
+        }
+      ]
+    },
+    {
+      "traitType": "Body Shape",
+      "valueMetrics": [
+        {
+          "value": "Lithe",
+          "count": 3809,
+          "percent": 39.02
+        },
+        {
+          "value": "Soft",
+          "count": 2739,
+          "percent": 28.06
+        },
+        {
+          "value": "Chiseled",
+          "count": 3213,
+          "percent": 32.92
+        }
+      ]
+    },
+    {
+      "traitType": "Top",
+      "valueMetrics": [
+        {
+          "value": "Sheer Top (Black)",
+          "count": 170,
+          "percent": 1.74
+        },
+        {
+          "value": "Shroud (Lilac)",
+          "count": 349,
+          "percent": 3.57
+        },
+        {
+          "value": "Mock Neck (Black)",
+          "count": 596,
+          "percent": 6.1
+        },
+        {
+          "value": "Poet (White)",
+          "count": 207,
+          "percent": 2.12
+        },
+        {
+          "value": "Open Collar with Bow (Black)",
+          "count": 263,
+          "percent": 2.69
+        },
+        {
+          "value": "Sheer Sleeves (Black)",
+          "count": 354,
+          "percent": 3.63
+        },
+        {
+          "value": "Shroud (Dusk)",
+          "count": 318,
+          "percent": 3.26
+        },
+        {
+          "value": "Shirt with Tie (White)",
+          "count": 25,
+          "percent": 0.26
+        },
+        {
+          "value": "Mugler Collarbone Cutout (Black)",
+          "count": 643,
+          "percent": 6.58
+        },
+        {
+          "value": "Vivetta Ghost Hand Collar (Black)",
+          "count": 239,
+          "percent": 2.45
+        },
+        {
+          "value": "Fluffy Shroud (White)",
+          "count": 268,
+          "percent": 2.74
+        },
+        {
+          "value": "Ragged Shawl (Black)",
+          "count": 496,
+          "percent": 5.08
+        },
+        {
+          "value": "Shredded Top (Black)",
+          "count": 308,
+          "percent": 3.15
+        },
+        {
+          "value": "Feathered Cloak (Gold)",
+          "count": 57,
+          "percent": 0.58
+        },
+        {
+          "value": "Shroud (Dusty Rose)",
+          "count": 232,
+          "percent": 2.38
+        },
+        {
+          "value": "Open Collar with Bow (White)",
+          "count": 274,
+          "percent": 2.81
+        },
+        {
+          "value": "Shroud (Wisteria)",
+          "count": 180,
+          "percent": 1.84
+        },
+        {
+          "value": "Shroud (Sage)",
+          "count": 169,
+          "percent": 1.73
+        },
+        {
+          "value": "Leather Neck Piece (Black)",
+          "count": 326,
+          "percent": 3.34
+        },
+        {
+          "value": "Sheer Striped (Black)",
+          "count": 513,
+          "percent": 5.25
+        },
+        {
+          "value": "Off Shoulder (Black)",
+          "count": 295,
+          "percent": 3.02
+        },
+        {
+          "value": "Striped Shroud (Umber)",
+          "count": 549,
+          "percent": 5.62
+        },
+        {
+          "value": "Straps (Black)",
+          "count": 844,
+          "percent": 8.64
+        },
+        {
+          "value": "Feathered Cloak (Phoenix)",
+          "count": 42,
+          "percent": 0.43
+        },
+        {
+          "value": "Filmy Edwardian (White)",
+          "count": 206,
+          "percent": 2.11
+        },
+        {
+          "value": "Feathered Cloak (Red)",
+          "count": 67,
+          "percent": 0.69
+        },
+        {
+          "value": "Mugler Tailored (White)",
+          "count": 221,
+          "percent": 2.26
+        },
+        {
+          "value": "Vivetta Hand Collar (Red)",
+          "count": 147,
+          "percent": 1.51
+        },
+        {
+          "value": "Mugler Tailored (Black)",
+          "count": 226,
+          "percent": 2.31
+        },
+        {
+          "value": "Pearl Shawl",
+          "count": 103,
+          "percent": 1.05
+        },
+        {
+          "value": "Shredded Top (White)",
+          "count": 122,
+          "percent": 1.25
+        },
+        {
+          "value": "Romantic Puff (White)",
+          "count": 125,
+          "percent": 1.28
+        },
+        {
+          "value": "Mugler Slashed (Black)",
+          "count": 200,
+          "percent": 2.05
+        },
+        {
+          "value": "Peter Pan (White)",
+          "count": 211,
+          "percent": 2.16
+        },
+        {
+          "value": "Victorian Frippery (White)",
+          "count": 99,
+          "percent": 1.01
+        },
+        {
+          "value": "Lined Romantic Puff (White)",
+          "count": 31,
+          "percent": 0.32
+        },
+        {
+          "value": "Open Collar with Flowers (White)",
+          "count": 49,
+          "percent": 0.5
+        },
+        {
+          "value": "Wide Collared Shirt (White)",
+          "count": 98,
+          "percent": 1
+        },
+        {
+          "value": "Moon Bow (Green)",
+          "count": 26,
+          "percent": 0.27
+        },
+        {
+          "value": "Open Collar (Black)",
+          "count": 1,
+          "percent": 0.01
+        },
+        {
+          "value": "Moon Bow (Red)",
+          "count": 25,
+          "percent": 0.26
+        },
+        {
+          "value": "Moon Bow (Blue)",
+          "count": 33,
+          "percent": 0.34
+        },
+        {
+          "value": "Strappy Crochet Top",
+          "count": 53,
+          "percent": 0.54
+        },
+        {
+          "value": "Wispy Robe (Cinnamon)",
+          "count": 1,
+          "percent": 0.01
+        },
+        {
+          "value": "Open Collar (Flint)",
+          "count": 1,
+          "percent": 0.01
+        },
+        {
+          "value": "Astrea (Red)",
+          "count": 1,
+          "percent": 0.01
+        },
+        {
+          "value": "Lunar Qipao (White)",
+          "count": 1,
+          "percent": 0.01
+        },
+        {
+          "value": "Dreamy Gauze (White)",
+          "count": 1,
+          "percent": 0.01
+        }
+      ]
+    },
+    {
+      "traitType": "Eyebrows",
+      "valueMetrics": [
+        {
+          "value": "Medium Flat (Black)",
+          "count": 1196,
+          "percent": 12.41
+        },
+        {
+          "value": "Pencil (White)",
+          "count": 1087,
+          "percent": 11.28
+        },
+        {
+          "value": "Strong (Black)",
+          "count": 1245,
+          "percent": 12.92
+        },
+        {
+          "value": "Bushy (White)",
+          "count": 1170,
+          "percent": 12.14
+        },
+        {
+          "value": "Thin Arched (Grey)",
+          "count": 1207,
+          "percent": 12.53
+        },
+        {
+          "value": "Round (Navy)",
+          "count": 1137,
+          "percent": 11.8
+        },
+        {
+          "value": "Bushy (Brown)",
+          "count": 1243,
+          "percent": 12.9
+        },
+        {
+          "value": "Arched (Brown)",
+          "count": 1174,
+          "percent": 12.19
+        },
+        {
+          "value": "Pierced (White)",
+          "count": 87,
+          "percent": 0.9
+        },
+        {
+          "value": "Pierced Pyramid Stud (Grey)",
+          "count": 82,
+          "percent": 0.85
+        },
+        {
+          "value": "Fluffy (White)",
+          "count": 1,
+          "percent": 0.01
+        },
+        {
+          "value": "Sylv (White)",
+          "count": 1,
+          "percent": 0.01
+        },
+        {
+          "value": "Fluffy (Brown)",
+          "count": 1,
+          "percent": 0.01
+        },
+        {
+          "value": "Starman (Brown)",
+          "count": 1,
+          "percent": 0.01
+        },
+        {
+          "value": "Thin Arched (Teal)",
+          "count": 1,
+          "percent": 0.01
+        },
+        {
+          "value": "Sorrowful (Dust)",
+          "count": 1,
+          "percent": 0.01
+        }
+      ]
+    },
+    {
+      "traitType": "Eye Style",
+      "valueMetrics": [
+        {
+          "value": "Nyx",
+          "count": 1,
+          "percent": 0.01
+        },
+        {
+          "value": "Hooded Side",
+          "count": 1463,
+          "percent": 14.99
+        },
+        {
+          "value": "Smudged",
+          "count": 540,
+          "percent": 5.53
+        },
+        {
+          "value": "Smudged Snake",
+          "count": 714,
+          "percent": 7.32
+        },
+        {
+          "value": "Reverse Cateye",
+          "count": 377,
+          "percent": 3.86
+        },
+        {
+          "value": "Sunset Almond",
+          "count": 1185,
+          "percent": 12.14
+        },
+        {
+          "value": "Clear Graphic",
+          "count": 191,
+          "percent": 1.96
+        },
+        {
+          "value": "Smudged Monolid",
+          "count": 224,
+          "percent": 2.3
+        },
+        {
+          "value": "Alert",
+          "count": 612,
+          "percent": 6.27
+        },
+        {
+          "value": "Demon",
+          "count": 85,
+          "percent": 0.87
+        },
+        {
+          "value": "Babylash",
+          "count": 1166,
+          "percent": 11.95
+        },
+        {
+          "value": "Circle Lens",
+          "count": 1911,
+          "percent": 19.58
+        },
+        {
+          "value": "Blank",
+          "count": 300,
+          "percent": 3.07
+        },
+        {
+          "value": "Darkened Demon Bloom",
+          "count": 114,
+          "percent": 1.17
+        },
+        {
+          "value": "Hypnotic",
+          "count": 326,
+          "percent": 3.34
+        },
+        {
+          "value": "Shadowed",
+          "count": 104,
+          "percent": 1.07
+        },
+        {
+          "value": "Sclera",
+          "count": 190,
+          "percent": 1.95
+        },
+        {
+          "value": "The Stalk Lined",
+          "count": 40,
+          "percent": 0.41
+        },
+        {
+          "value": "The Stalk",
+          "count": 53,
+          "percent": 0.54
+        },
+        {
+          "value": "Liquid Metal",
+          "count": 65,
+          "percent": 0.67
+        },
+        {
+          "value": "Demon Bloom",
+          "count": 45,
+          "percent": 0.46
+        },
+        {
+          "value": "Inscribed Demon Bloom",
+          "count": 34,
+          "percent": 0.35
+        },
+        {
+          "value": "Liquid Metal Lined",
+          "count": 14,
+          "percent": 0.14
+        },
+        {
+          "value": "Aletheia",
+          "count": 1,
+          "percent": 0.01
+        },
+        {
+          "value": "Xuannu",
+          "count": 1,
+          "percent": 0.01
+        },
+        {
+          "value": "Aradia",
+          "count": 1,
+          "percent": 0.01
+        },
+        {
+          "value": "Keridwen",
+          "count": 1,
+          "percent": 0.01
+        },
+        {
+          "value": "Sylv",
+          "count": 1,
+          "percent": 0.01
+        },
+        {
+          "value": "Starman",
+          "count": 1,
+          "percent": 0.01
+        }
+      ]
+    },
+    {
+      "traitType": "Eye Color",
+      "valueMetrics": [
+        {
+          "value": "Cloud",
+          "count": 1,
+          "percent": 0.01
+        },
+        {
+          "value": "Gold",
+          "count": 1103,
+          "percent": 11.3
+        },
+        {
+          "value": "Green",
+          "count": 819,
+          "percent": 8.39
+        },
+        {
+          "value": "Pink",
+          "count": 1054,
+          "percent": 10.8
+        },
+        {
+          "value": "Glo",
+          "count": 942,
+          "percent": 9.65
+        },
+        {
+          "value": "Opal",
+          "count": 139,
+          "percent": 1.42
+        },
+        {
+          "value": "Grey",
+          "count": 1304,
+          "percent": 13.36
+        },
+        {
+          "value": "Red",
+          "count": 828,
+          "percent": 8.48
+        },
+        {
+          "value": "Blue",
+          "count": 212,
+          "percent": 2.17
+        },
+        {
+          "value": "Purple",
+          "count": 416,
+          "percent": 4.26
+        },
+        {
+          "value": "Lilac",
+          "count": 266,
+          "percent": 2.73
+        },
+        {
+          "value": "Flooded Gold",
+          "count": 18,
+          "percent": 0.18
+        },
+        {
+          "value": "Carnelian",
+          "count": 301,
+          "percent": 3.08
+        },
+        {
+          "value": "Grey Green",
+          "count": 297,
+          "percent": 3.04
+        },
+        {
+          "value": "Hazel",
+          "count": 305,
+          "percent": 3.12
+        },
+        {
+          "value": "Aqua",
+          "count": 173,
+          "percent": 1.77
+        },
+        {
+          "value": "Bicolor Blue Gold",
+          "count": 233,
+          "percent": 2.39
+        },
+        {
+          "value": "Violet",
+          "count": 307,
+          "percent": 3.15
+        },
+        {
+          "value": "Amber",
+          "count": 336,
+          "percent": 3.44
+        },
+        {
+          "value": "Flooded Aqua",
+          "count": 20,
+          "percent": 0.2
+        },
+        {
+          "value": "Bicolor Pink Turquoise",
+          "count": 233,
+          "percent": 2.39
+        },
+        {
+          "value": "Void Black",
+          "count": 53,
+          "percent": 0.54
+        },
+        {
+          "value": "Bronze",
+          "count": 65,
+          "percent": 0.67
+        },
+        {
+          "value": "Brown",
+          "count": 45,
+          "percent": 0.46
+        },
+        {
+          "value": "Ruby",
+          "count": 43,
+          "percent": 0.44
+        },
+        {
+          "value": "Flooded Glo",
+          "count": 17,
+          "percent": 0.17
+        },
+        {
+          "value": "White",
+          "count": 67,
+          "percent": 0.69
+        },
+        {
+          "value": "Black",
+          "count": 93,
+          "percent": 0.95
+        },
+        {
+          "value": "Flooded Red",
+          "count": 9,
+          "percent": 0.09
+        },
+        {
+          "value": "Emerald",
+          "count": 33,
+          "percent": 0.34
+        },
+        {
+          "value": "Silver",
+          "count": 10,
+          "percent": 0.1
+        },
+        {
+          "value": "Aquamarine",
+          "count": 1,
+          "percent": 0.01
+        },
+        {
+          "value": "Garnet",
+          "count": 1,
+          "percent": 0.01
+        },
+        {
+          "value": "Flooded Cobalt",
+          "count": 14,
+          "percent": 0.14
+        },
+        {
+          "value": "Amethyst",
+          "count": 1,
+          "percent": 0.01
+        },
+        {
+          "value": "Blank",
+          "count": 1,
+          "percent": 0.01
+        }
+      ]
+    },
+    {
+      "traitType": "Mouth",
+      "valueMetrics": [
+        {
+          "value": "Nyx (Mocha)",
+          "count": 1,
+          "percent": 0.01
+        },
+        {
+          "value": "Bow (Dusk)",
+          "count": 516,
+          "percent": 5.29
+        },
+        {
+          "value": "Plump (Natural)",
+          "count": 782,
+          "percent": 8.01
+        },
+        {
+          "value": "Dark Gloss (Dark)",
+          "count": 473,
+          "percent": 4.85
+        },
+        {
+          "value": "Full Pout (Beige)",
+          "count": 263,
+          "percent": 2.69
+        },
+        {
+          "value": "Steady Pout",
+          "count": 297,
+          "percent": 3.04
+        },
+        {
+          "value": "Thin Smirk (Orange)",
+          "count": 190,
+          "percent": 1.95
+        },
+        {
+          "value": "Parted (Beige)",
+          "count": 861,
+          "percent": 8.82
+        },
+        {
+          "value": "Bow (Purple)",
+          "count": 762,
+          "percent": 7.81
+        },
+        {
+          "value": "Bow (Coral)",
+          "count": 566,
+          "percent": 5.8
+        },
+        {
+          "value": "Witchy Pout (Black)",
+          "count": 527,
+          "percent": 5.4
+        },
+        {
+          "value": "Round (Dark)",
+          "count": 712,
+          "percent": 7.3
+        },
+        {
+          "value": "Bow (Red)",
+          "count": 768,
+          "percent": 7.87
+        },
+        {
+          "value": "Pursed (Red)",
+          "count": 221,
+          "percent": 2.26
+        },
+        {
+          "value": "Round (Red)",
+          "count": 339,
+          "percent": 3.47
+        },
+        {
+          "value": "Pursed (Natural)",
+          "count": 227,
+          "percent": 2.33
+        },
+        {
+          "value": "Glossy Medusa (Natural)",
+          "count": 478,
+          "percent": 4.9
+        },
+        {
+          "value": "Medusa (Natural)",
+          "count": 196,
+          "percent": 2.01
+        },
+        {
+          "value": "Thin Smirk",
+          "count": 280,
+          "percent": 2.87
+        },
+        {
+          "value": "Parted (Black)",
+          "count": 831,
+          "percent": 8.52
+        },
+        {
+          "value": "Punks Cig (Natural)",
+          "count": 31,
+          "percent": 0.32
+        },
+        {
+          "value": "Bow (Brown)",
+          "count": 217,
+          "percent": 2.22
+        },
+        {
+          "value": "Plump (Black)",
+          "count": 214,
+          "percent": 2.19
+        },
+        {
+          "value": "Aletheia (Mauve)",
+          "count": 1,
+          "percent": 0.01
+        },
+        {
+          "value": "Xuannu (Cinnamon)",
+          "count": 1,
+          "percent": 0.01
+        },
+        {
+          "value": "Aradia (Rose Gold)",
+          "count": 1,
+          "percent": 0.01
+        },
+        {
+          "value": "Keridwen (Umber)",
+          "count": 1,
+          "percent": 0.01
+        },
+        {
+          "value": "Smirk (Peach)",
+          "count": 1,
+          "percent": 0.01
+        },
+        {
+          "value": "Bow (Carnelian)",
+          "count": 1,
+          "percent": 0.01
+        },
+        {
+          "value": "Bow (Flamingo)",
+          "count": 1,
+          "percent": 0.01
+        }
+      ]
+    },
+    {
+      "traitType": "Hair (Front)",
+      "valueMetrics": [
+        {
+          "value": "Nyx",
+          "count": 425,
+          "percent": 4.35
+        },
+        {
+          "value": "Keridwen",
+          "count": 466,
+          "percent": 4.77
+        },
+        {
+          "value": "Aradia Short",
+          "count": 1209,
+          "percent": 12.37
+        },
+        {
+          "value": "Xuannu",
+          "count": 1476,
+          "percent": 15.11
+        },
+        {
+          "value": "Drill Curls",
+          "count": 384,
+          "percent": 3.93
+        },
+        {
+          "value": "Aradia",
+          "count": 656,
+          "percent": 6.71
+        },
+        {
+          "value": "High Pony",
+          "count": 223,
+          "percent": 2.28
+        },
+        {
+          "value": "Aletheia",
+          "count": 1179,
+          "percent": 12.07
+        },
+        {
+          "value": "Curtain",
+          "count": 811,
+          "percent": 8.3
+        },
+        {
+          "value": "Curl Cloud",
+          "count": 733,
+          "percent": 7.5
+        },
+        {
+          "value": "Baby Drill Curls",
+          "count": 546,
+          "percent": 5.59
+        },
+        {
+          "value": "Box Braids",
+          "count": 274,
+          "percent": 2.8
+        },
+        {
+          "value": "Pixie",
+          "count": 110,
+          "percent": 1.13
+        },
+        {
+          "value": "Hair Wrap",
+          "count": 75,
+          "percent": 0.77
+        },
+        {
+          "value": "Bald",
+          "count": 196,
+          "percent": 2.01
+        },
+        {
+          "value": "Dramatic Swoop",
+          "count": 426,
+          "percent": 4.36
+        },
+        {
+          "value": "Gelled Baby Hair",
+          "count": 204,
+          "percent": 2.09
+        },
+        {
+          "value": "Cloudy Skies",
+          "count": 31,
+          "percent": 0.32
+        },
+        {
+          "value": "Miranda Priestly",
+          "count": 127,
+          "percent": 1.3
+        },
+        {
+          "value": "Jeweled Hood Covered",
+          "count": 54,
+          "percent": 0.55
+        },
+        {
+          "value": "Jeweled Turban",
+          "count": 52,
+          "percent": 0.53
+        },
+        {
+          "value": "Jeweled Hood",
+          "count": 54,
+          "percent": 0.55
+        },
+        {
+          "value": "Sheer Pearl Veil",
+          "count": 55,
+          "percent": 0.56
+        },
+        {
+          "value": "Sylv",
+          "count": 1,
+          "percent": 0.01
+        },
+        {
+          "value": "Starman",
+          "count": 1,
+          "percent": 0.01
+        },
+        {
+          "value": "Astrea",
+          "count": 1,
+          "percent": 0.01
+        },
+        {
+          "value": "Celestial Blessing",
+          "count": 1,
+          "percent": 0.01
+        },
+        {
+          "value": "Oizys",
+          "count": 1,
+          "percent": 0.01
+        }
+      ]
+    },
+    {
+      "traitType": "Hair (Back)",
+      "valueMetrics": [
+        {
+          "value": "Nyx Long",
+          "count": 247,
+          "percent": 3.42
+        },
+        {
+          "value": "Keridwen",
+          "count": 513,
+          "percent": 7.11
+        },
+        {
+          "value": "Wolf",
+          "count": 183,
+          "percent": 2.53
+        },
+        {
+          "value": "High Blowout",
+          "count": 373,
+          "percent": 5.17
+        },
+        {
+          "value": "Drill Cloud",
+          "count": 161,
+          "percent": 2.23
+        },
+        {
+          "value": "Aradia",
+          "count": 886,
+          "percent": 12.27
+        },
+        {
+          "value": "Soft Braid",
+          "count": 1111,
+          "percent": 15.39
+        },
+        {
+          "value": "Cute Pigtails",
+          "count": 287,
+          "percent": 3.98
+        },
+        {
+          "value": "Soft Waves",
+          "count": 269,
+          "percent": 3.73
+        },
+        {
+          "value": "Flowy Pony",
+          "count": 833,
+          "percent": 11.54
+        },
+        {
+          "value": "Curl Cloud",
+          "count": 301,
+          "percent": 4.17
+        },
+        {
+          "value": "Aletheia",
+          "count": 321,
+          "percent": 4.45
+        },
+        {
+          "value": "Double Locs",
+          "count": 58,
+          "percent": 0.8
+        },
+        {
+          "value": "Xuannu",
+          "count": 227,
+          "percent": 3.14
+        },
+        {
+          "value": "Calm Pigtails",
+          "count": 235,
+          "percent": 3.25
+        },
+        {
+          "value": "Bubble Braids",
+          "count": 160,
+          "percent": 2.22
+        },
+        {
+          "value": "Dramatic Swoop",
+          "count": 426,
+          "percent": 5.9
+        },
+        {
+          "value": "Low Pony",
+          "count": 160,
+          "percent": 2.22
+        },
+        {
+          "value": "Flowing Pigtails",
+          "count": 172,
+          "percent": 2.38
+        },
+        {
+          "value": "Cloudy Skies",
+          "count": 31,
+          "percent": 0.43
+        },
+        {
+          "value": "Box Braid Pony",
+          "count": 51,
+          "percent": 0.71
+        },
+        {
+          "value": "Jeweled Hood",
+          "count": 108,
+          "percent": 1.5
+        },
+        {
+          "value": "Sheer Pearl Veil",
+          "count": 55,
+          "percent": 0.76
+        },
+        {
+          "value": "Miranda Priestly",
+          "count": 15,
+          "percent": 0.21
+        },
+        {
+          "value": "Puffy Buns",
+          "count": 36,
+          "percent": 0.5
+        },
+        {
+          "value": "Oizys",
+          "count": 1,
+          "percent": 0.01
+        }
+      ]
+    },
+    {
+      "traitType": "Hair Color",
+      "valueMetrics": [
+        {
+          "value": "Steel",
+          "count": 868,
+          "percent": 9.07
+        },
+        {
+          "value": "Auburn",
+          "count": 766,
+          "percent": 8
+        },
+        {
+          "value": "Mauve",
+          "count": 690,
+          "percent": 7.21
+        },
+        {
+          "value": "Pink",
+          "count": 613,
+          "percent": 6.4
+        },
+        {
+          "value": "Lilac",
+          "count": 755,
+          "percent": 7.89
+        },
+        {
+          "value": "Lavender",
+          "count": 730,
+          "percent": 7.62
+        },
+        {
+          "value": "Glo",
+          "count": 221,
+          "percent": 2.31
+        },
+        {
+          "value": "Platinum",
+          "count": 809,
+          "percent": 8.45
+        },
+        {
+          "value": "Silver",
+          "count": 898,
+          "percent": 9.38
+        },
+        {
+          "value": "Ash",
+          "count": 768,
+          "percent": 8.02
+        },
+        {
+          "value": "Mermaid",
+          "count": 773,
+          "percent": 8.07
+        },
+        {
+          "value": "Navy",
+          "count": 667,
+          "percent": 6.97
+        },
+        {
+          "value": "Black",
+          "count": 553,
+          "percent": 5.78
+        },
+        {
+          "value": "Warm Brown",
+          "count": 57,
+          "percent": 0.6
+        },
+        {
+          "value": "Emerald",
+          "count": 74,
+          "percent": 0.77
+        },
+        {
+          "value": "Plum",
+          "count": 37,
+          "percent": 0.39
+        },
+        {
+          "value": "Iridescent",
+          "count": 55,
+          "percent": 0.57
+        },
+        {
+          "value": "Ethereum",
+          "count": 19,
+          "percent": 0.2
+        },
+        {
+          "value": "Desert",
+          "count": 30,
+          "percent": 0.31
+        },
+        {
+          "value": "Purple",
+          "count": 27,
+          "percent": 0.28
+        },
+        {
+          "value": "Saffron",
+          "count": 24,
+          "percent": 0.25
+        },
+        {
+          "value": "Marine",
+          "count": 26,
+          "percent": 0.27
+        },
+        {
+          "value": "Green",
+          "count": 14,
+          "percent": 0.15
+        },
+        {
+          "value": "Mint",
+          "count": 28,
+          "percent": 0.29
+        },
+        {
+          "value": "Blue",
+          "count": 18,
+          "percent": 0.19
+        },
+        {
+          "value": "White",
+          "count": 18,
+          "percent": 0.19
+        },
+        {
+          "value": "Periwinkle",
+          "count": 12,
+          "percent": 0.13
+        },
+        {
+          "value": "Cyan",
+          "count": 9,
+          "percent": 0.09
+        },
+        {
+          "value": "Ochre",
+          "count": 13,
+          "percent": 0.14
+        },
+        {
+          "value": "Roguish Blonde",
+          "count": 1,
+          "percent": 0.01
+        },
+        {
+          "value": "Magenta",
+          "count": 1,
+          "percent": 0.01
+        },
+        {
+          "value": "Dust",
+          "count": 1,
+          "percent": 0.01
+        }
+      ]
+    },
+    {
+      "traitType": "Hat",
+      "valueMetrics": [
+        {
+          "value": "Witch (Black)",
+          "count": 2,
+          "percent": 0.08
+        },
+        {
+          "value": "Valkyrie Dark",
+          "count": 28,
+          "percent": 1.05
+        },
+        {
+          "value": "Witch",
+          "count": 1155,
+          "percent": 43.36
+        },
+        {
+          "value": "Lined (Black)",
+          "count": 249,
+          "percent": 9.35
+        },
+        {
+          "value": "Hoodlondon Hathor (Gold)",
+          "count": 266,
+          "percent": 9.98
+        },
+        {
+          "value": "Floral Lacewing",
+          "count": 90,
+          "percent": 3.38
+        },
+        {
+          "value": "Chic Disk (Black)",
+          "count": 92,
+          "percent": 3.45
+        },
+        {
+          "value": "Arcane Stars (Black)",
+          "count": 100,
+          "percent": 3.75
+        },
+        {
+          "value": "Dita Disk (Black)",
+          "count": 70,
+          "percent": 2.63
+        },
+        {
+          "value": "Proper Witch",
+          "count": 45,
+          "percent": 1.69
+        },
+        {
+          "value": "Young Floral Horns",
+          "count": 80,
+          "percent": 3
+        },
+        {
+          "value": "Moon Moth (Black)",
+          "count": 75,
+          "percent": 2.82
+        },
+        {
+          "value": "Mushroom",
+          "count": 101,
+          "percent": 3.79
+        },
+        {
+          "value": "Straw Circle",
+          "count": 53,
+          "percent": 1.99
+        },
+        {
+          "value": "Valkyrie Light (White)",
+          "count": 23,
+          "percent": 0.86
+        },
+        {
+          "value": "Dita Disk with Poppies",
+          "count": 52,
+          "percent": 1.95
+        },
+        {
+          "value": "Vogue Witch",
+          "count": 25,
+          "percent": 0.94
+        },
+        {
+          "value": "Twin Snakes",
+          "count": 34,
+          "percent": 1.28
+        },
+        {
+          "value": "Rounded Lady",
+          "count": 27,
+          "percent": 1.01
+        },
+        {
+          "value": "Sheer Moon Xuannu Veil (Purple)",
+          "count": 14,
+          "percent": 0.53
+        },
+        {
+          "value": "Many Eyed Hat",
+          "count": 41,
+          "percent": 1.54
+        },
+        {
+          "value": "Structured Flowers (Black)",
+          "count": 20,
+          "percent": 0.75
+        },
+        {
+          "value": "Sheer Moon Nyx Veil (Purple)",
+          "count": 19,
+          "percent": 0.71
+        },
+        {
+          "value": "Sylv (Black)",
+          "count": 1,
+          "percent": 0.04
+        },
+        {
+          "value": "Mushrune",
+          "count": 1,
+          "percent": 0.04
+        },
+        {
+          "value": "Veil of Nightmares",
+          "count": 1,
+          "percent": 0.04
+        }
+      ]
+    },
+    {
+      "traitType": "Necklace",
+      "valueMetrics": [
+        {
+          "value": "Moon Necklace (Silver)",
+          "count": 326,
+          "percent": 14.07
+        },
+        {
+          "value": "Creepy Yeha Pearls (Pearl)",
+          "count": 274,
+          "percent": 11.83
+        },
+        {
+          "value": "Eclectic Choker Stack (Blue)",
+          "count": 79,
+          "percent": 3.41
+        },
+        {
+          "value": "Ethereum Thread (Natural)",
+          "count": 133,
+          "percent": 5.74
+        },
+        {
+          "value": "Piercing Choker (Green)",
+          "count": 39,
+          "percent": 1.68
+        },
+        {
+          "value": "Metal Collar (Silver)",
+          "count": 147,
+          "percent": 6.34
+        },
+        {
+          "value": "Thread Necklace (Natural)",
+          "count": 157,
+          "percent": 6.78
+        },
+        {
+          "value": "Moon Choker (Silver)",
+          "count": 131,
+          "percent": 5.65
+        },
+        {
+          "value": "Studded Collar (Silver)",
+          "count": 314,
+          "percent": 13.55
+        },
+        {
+          "value": "Ring Collar (Silver)",
+          "count": 39,
+          "percent": 1.68
+        },
+        {
+          "value": "Eclectic Choker Stack (Red)",
+          "count": 90,
+          "percent": 3.88
+        },
+        {
+          "value": "Pearl Set (Pearl)",
+          "count": 63,
+          "percent": 2.72
+        },
+        {
+          "value": "Stars Thread (Natural)",
+          "count": 82,
+          "percent": 3.54
+        },
+        {
+          "value": "Eclectic Choker Stack (Green)",
+          "count": 97,
+          "percent": 4.19
+        },
+        {
+          "value": "Natural Dried Orange Stack (Natural)",
+          "count": 89,
+          "percent": 3.84
+        },
+        {
+          "value": "Chaotic Howl Stack (Eclectic)",
+          "count": 55,
+          "percent": 2.37
+        },
+        {
+          "value": "Eclectic Choker Stack (Purple)",
+          "count": 66,
+          "percent": 2.85
+        },
+        {
+          "value": "Piercing Choker (Pink)",
+          "count": 25,
+          "percent": 1.08
+        },
+        {
+          "value": "Sacred Cipher",
+          "count": 1,
+          "percent": 0.04
+        },
+        {
+          "value": "Piercing Choker (Purple)",
+          "count": 40,
+          "percent": 1.73
+        },
+        {
+          "value": "Piercing Choker (Blue)",
+          "count": 28,
+          "percent": 1.21
+        },
+        {
+          "value": "Piercing Choker (Red)",
+          "count": 38,
+          "percent": 1.64
+        },
+        {
+          "value": "Leather Wrap (Brown)",
+          "count": 1,
+          "percent": 0.04
+        },
+        {
+          "value": "Astrea (Gold)",
+          "count": 1,
+          "percent": 0.04
+        },
+        {
+          "value": "Iridescent Thread (Bluebell)",
+          "count": 1,
+          "percent": 0.04
+        },
+        {
+          "value": "Thorned Pearl Choker",
+          "count": 1,
+          "percent": 0.04
+        }
+      ]
+    },
+    {
+      "traitType": "Archetype of Power",
+      "valueMetrics": [
+        {
+          "value": "Witch of Woe",
+          "count": 1,
+          "percent": 0.01
+        },
+        {
+          "value": "Hag",
+          "count": 1773,
+          "percent": 18.16
+        },
+        {
+          "value": "Necromancer",
+          "count": 1593,
+          "percent": 16.32
+        },
+        {
+          "value": "Occultist",
+          "count": 1843,
+          "percent": 18.88
+        },
+        {
+          "value": "Mage",
+          "count": 1731,
+          "percent": 17.73
+        },
+        {
+          "value": "Enchantress",
+          "count": 1394,
+          "percent": 14.28
+        },
+        {
+          "value": "Seer",
+          "count": 1422,
+          "percent": 14.57
+        },
+        {
+          "value": "Witch of Wisdom",
+          "count": 1,
+          "percent": 0.01
+        },
+        {
+          "value": "Witch of Will",
+          "count": 1,
+          "percent": 0.01
+        },
+        {
+          "value": "Witch of Wonder",
+          "count": 1,
+          "percent": 0.01
+        },
+        {
+          "value": "Witch of Wit",
+          "count": 1,
+          "percent": 0.01
+        }
+      ]
+    },
+    {
+      "traitType": "Sun Sign",
+      "valueMetrics": [
+        {
+          "value": "Taurus",
+          "count": 809,
+          "percent": 8.29
+        },
+        {
+          "value": "Aquarius",
+          "count": 832,
+          "percent": 8.52
+        },
+        {
+          "value": "Sagittarius",
+          "count": 795,
+          "percent": 8.14
+        },
+        {
+          "value": "Pisces",
+          "count": 761,
+          "percent": 7.8
+        },
+        {
+          "value": "Scorpio",
+          "count": 856,
+          "percent": 8.77
+        },
+        {
+          "value": "Cancer",
+          "count": 805,
+          "percent": 8.25
+        },
+        {
+          "value": "Gemini",
+          "count": 814,
+          "percent": 8.34
+        },
+        {
+          "value": "Aries",
+          "count": 807,
+          "percent": 8.27
+        },
+        {
+          "value": "Virgo",
+          "count": 876,
+          "percent": 8.97
+        },
+        {
+          "value": "Libra",
+          "count": 784,
+          "percent": 8.03
+        },
+        {
+          "value": "Capricorn",
+          "count": 760,
+          "percent": 7.79
+        },
+        {
+          "value": "Leo",
+          "count": 862,
+          "percent": 8.83
+        }
+      ]
+    },
+    {
+      "traitType": "Moon Sign",
+      "valueMetrics": [
+        {
+          "value": "Aquarius",
+          "count": 793,
+          "percent": 8.12
+        },
+        {
+          "value": "Capricorn",
+          "count": 848,
+          "percent": 8.69
+        },
+        {
+          "value": "Cancer",
+          "count": 857,
+          "percent": 8.78
+        },
+        {
+          "value": "Aries",
+          "count": 780,
+          "percent": 7.99
+        },
+        {
+          "value": "Libra",
+          "count": 855,
+          "percent": 8.76
+        },
+        {
+          "value": "Taurus",
+          "count": 839,
+          "percent": 8.6
+        },
+        {
+          "value": "Pisces",
+          "count": 740,
+          "percent": 7.58
+        },
+        {
+          "value": "Gemini",
+          "count": 814,
+          "percent": 8.34
+        },
+        {
+          "value": "Sagittarius",
+          "count": 842,
+          "percent": 8.63
+        },
+        {
+          "value": "Leo",
+          "count": 789,
+          "percent": 8.08
+        },
+        {
+          "value": "Virgo",
+          "count": 778,
+          "percent": 7.97
+        },
+        {
+          "value": "Scorpio",
+          "count": 826,
+          "percent": 8.46
+        }
+      ]
+    },
+    {
+      "traitType": "Rising Sign",
+      "valueMetrics": [
+        {
+          "value": "Capricorn",
+          "count": 785,
+          "percent": 8.04
+        },
+        {
+          "value": "Scorpio",
+          "count": 824,
+          "percent": 8.44
+        },
+        {
+          "value": "Cancer",
+          "count": 813,
+          "percent": 8.33
+        },
+        {
+          "value": "Pisces",
+          "count": 801,
+          "percent": 8.21
+        },
+        {
+          "value": "Aquarius",
+          "count": 796,
+          "percent": 8.15
+        },
+        {
+          "value": "Leo",
+          "count": 840,
+          "percent": 8.61
+        },
+        {
+          "value": "Taurus",
+          "count": 817,
+          "percent": 8.37
+        },
+        {
+          "value": "Sagittarius",
+          "count": 826,
+          "percent": 8.46
+        },
+        {
+          "value": "Virgo",
+          "count": 817,
+          "percent": 8.37
+        },
+        {
+          "value": "Aries",
+          "count": 797,
+          "percent": 8.17
+        },
+        {
+          "value": "Libra",
+          "count": 851,
+          "percent": 8.72
+        },
+        {
+          "value": "Gemini",
+          "count": 794,
+          "percent": 8.13
+        }
+      ]
+    },
+    {
+      "traitType": "Will",
+      "valueMetrics": [
+        {
+          "value": "9",
+          "count": 1285,
+          "percent": 13.16
+        },
+        {
+          "value": "2",
+          "count": 755,
+          "percent": 7.73
+        },
+        {
+          "value": "4",
+          "count": 1100,
+          "percent": 11.27
+        },
+        {
+          "value": "0",
+          "count": 596,
+          "percent": 6.11
+        },
+        {
+          "value": "3",
+          "count": 1107,
+          "percent": 11.34
+        },
+        {
+          "value": "5",
+          "count": 1065,
+          "percent": 10.91
+        },
+        {
+          "value": "8",
+          "count": 1078,
+          "percent": 11.04
+        },
+        {
+          "value": "7",
+          "count": 1119,
+          "percent": 11.46
+        },
+        {
+          "value": "1",
+          "count": 583,
+          "percent": 5.97
+        },
+        {
+          "value": "6",
+          "count": 1072,
+          "percent": 10.98
+        },
+        {
+          "value": "10",
+          "count": 1,
+          "percent": 0.01
+        }
+      ]
+    },
+    {
+      "traitType": "Wisdom",
+      "valueMetrics": [
+        {
+          "value": "9",
+          "count": 1267,
+          "percent": 12.98
+        },
+        {
+          "value": "3",
+          "count": 1095,
+          "percent": 11.22
+        },
+        {
+          "value": "7",
+          "count": 1094,
+          "percent": 11.21
+        },
+        {
+          "value": "1",
+          "count": 747,
+          "percent": 7.65
+        },
+        {
+          "value": "6",
+          "count": 1027,
+          "percent": 10.52
+        },
+        {
+          "value": "2",
+          "count": 747,
+          "percent": 7.65
+        },
+        {
+          "value": "8",
+          "count": 1077,
+          "percent": 11.03
+        },
+        {
+          "value": "4",
+          "count": 1102,
+          "percent": 11.29
+        },
+        {
+          "value": "0",
+          "count": 535,
+          "percent": 5.48
+        },
+        {
+          "value": "5",
+          "count": 1069,
+          "percent": 10.95
+        },
+        {
+          "value": "10",
+          "count": 1,
+          "percent": 0.01
+        }
+      ]
+    },
+    {
+      "traitType": "Wonder",
+      "valueMetrics": [
+        {
+          "value": "9",
+          "count": 1179,
+          "percent": 12.08
+        },
+        {
+          "value": "5",
+          "count": 1089,
+          "percent": 11.16
+        },
+        {
+          "value": "2",
+          "count": 912,
+          "percent": 9.34
+        },
+        {
+          "value": "4",
+          "count": 1070,
+          "percent": 10.96
+        },
+        {
+          "value": "7",
+          "count": 1058,
+          "percent": 10.84
+        },
+        {
+          "value": "1",
+          "count": 674,
+          "percent": 6.91
+        },
+        {
+          "value": "6",
+          "count": 1071,
+          "percent": 10.97
+        },
+        {
+          "value": "3",
+          "count": 1113,
+          "percent": 11.4
+        },
+        {
+          "value": "0",
+          "count": 555,
+          "percent": 5.69
+        },
+        {
+          "value": "8",
+          "count": 1039,
+          "percent": 10.64
+        },
+        {
+          "value": "10",
+          "count": 1,
+          "percent": 0.01
+        }
+      ]
+    },
+    {
+      "traitType": "Woe",
+      "valueMetrics": [
+        {
+          "value": "10",
+          "count": 1,
+          "percent": 0.01
+        },
+        {
+          "value": "4",
+          "count": 1101,
+          "percent": 11.28
+        },
+        {
+          "value": "9",
+          "count": 1534,
+          "percent": 15.72
+        },
+        {
+          "value": "3",
+          "count": 1089,
+          "percent": 11.16
+        },
+        {
+          "value": "2",
+          "count": 709,
+          "percent": 7.26
+        },
+        {
+          "value": "6",
+          "count": 1067,
+          "percent": 10.93
+        },
+        {
+          "value": "5",
+          "count": 1052,
+          "percent": 10.78
+        },
+        {
+          "value": "0",
+          "count": 524,
+          "percent": 5.37
+        },
+        {
+          "value": "7",
+          "count": 1163,
+          "percent": 11.91
+        },
+        {
+          "value": "8",
+          "count": 1044,
+          "percent": 10.7
+        },
+        {
+          "value": "1",
+          "count": 477,
+          "percent": 4.89
+        }
+      ]
+    },
+    {
+      "traitType": "Wit",
+      "valueMetrics": [
+        {
+          "value": "9",
+          "count": 875,
+          "percent": 8.96
+        },
+        {
+          "value": "7",
+          "count": 1163,
+          "percent": 11.91
+        },
+        {
+          "value": "8",
+          "count": 1107,
+          "percent": 11.34
+        },
+        {
+          "value": "1",
+          "count": 927,
+          "percent": 9.5
+        },
+        {
+          "value": "2",
+          "count": 900,
+          "percent": 9.22
+        },
+        {
+          "value": "0",
+          "count": 534,
+          "percent": 5.47
+        },
+        {
+          "value": "6",
+          "count": 1079,
+          "percent": 11.05
+        },
+        {
+          "value": "3",
+          "count": 1078,
+          "percent": 11.04
+        },
+        {
+          "value": "4",
+          "count": 1057,
+          "percent": 10.83
+        },
+        {
+          "value": "5",
+          "count": 1040,
+          "percent": 10.65
+        },
+        {
+          "value": "10",
+          "count": 1,
+          "percent": 0.01
+        }
+      ]
+    },
+    {
+      "traitType": "Wiles",
+      "valueMetrics": [
+        {
+          "value": "9",
+          "count": 955,
+          "percent": 9.78
+        },
+        {
+          "value": "1",
+          "count": 711,
+          "percent": 7.28
+        },
+        {
+          "value": "2",
+          "count": 846,
+          "percent": 8.67
+        },
+        {
+          "value": "8",
+          "count": 1078,
+          "percent": 11.04
+        },
+        {
+          "value": "4",
+          "count": 1119,
+          "percent": 11.46
+        },
+        {
+          "value": "7",
+          "count": 1046,
+          "percent": 10.72
+        },
+        {
+          "value": "3",
+          "count": 1164,
+          "percent": 11.93
+        },
+        {
+          "value": "6",
+          "count": 1048,
+          "percent": 10.74
+        },
+        {
+          "value": "5",
+          "count": 1058,
+          "percent": 10.84
+        },
+        {
+          "value": "0",
+          "count": 736,
+          "percent": 7.54
+        }
+      ]
+    },
+    {
+      "traitType": "Hair (Middle)",
+      "valueMetrics": [
+        {
+          "value": "Cute Buns",
+          "count": 365,
+          "percent": 44.3
+        },
+        {
+          "value": "Dark Lady",
+          "count": 377,
+          "percent": 45.75
+        },
+        {
+          "value": "Double Locs",
+          "count": 62,
+          "percent": 7.52
+        },
+        {
+          "value": "Flower Buns",
+          "count": 20,
+          "percent": 2.43
+        }
+      ]
+    },
+    {
+      "traitType": "Hair Topper",
+      "valueMetrics": [
+        {
+          "value": "Leafy Crown",
+          "count": 121,
+          "percent": 4.75
+        },
+        {
+          "value": "Crown of Pearls",
+          "count": 325,
+          "percent": 12.76
+        },
+        {
+          "value": "Gentle Horns",
+          "count": 237,
+          "percent": 9.31
+        },
+        {
+          "value": "Bat Wings",
+          "count": 788,
+          "percent": 30.94
+        },
+        {
+          "value": "Maleficent Horns",
+          "count": 267,
+          "percent": 10.48
+        },
+        {
+          "value": "Feathered Hairpins",
+          "count": 86,
+          "percent": 3.38
+        },
+        {
+          "value": "Aries Horns",
+          "count": 245,
+          "percent": 9.62
+        },
+        {
+          "value": "Jeweled Antlers",
+          "count": 134,
+          "percent": 5.26
+        },
+        {
+          "value": "Horns of Taurus",
+          "count": 254,
+          "percent": 9.97
+        },
+        {
+          "value": "Anemone Horns",
+          "count": 88,
+          "percent": 3.46
+        },
+        {
+          "value": "Hairpins",
+          "count": 1,
+          "percent": 0.04
+        },
+        {
+          "value": "Star Circlet",
+          "count": 1,
+          "percent": 0.04
+        }
+      ]
+    },
+    {
+      "traitType": "Back Item",
+      "valueMetrics": [
+        {
+          "value": "Chinese Lantern",
+          "count": 1320,
+          "percent": 27.33
+        },
+        {
+          "value": "Lily",
+          "count": 1431,
+          "percent": 29.63
+        },
+        {
+          "value": "Scripted Mage Aura (Purple)",
+          "count": 114,
+          "percent": 2.36
+        },
+        {
+          "value": "Monstera",
+          "count": 1436,
+          "percent": 29.74
+        },
+        {
+          "value": "Scripted Mage Aura (Green)",
+          "count": 102,
+          "percent": 2.11
+        },
+        {
+          "value": "Scripted Mage Aura (Gold)",
+          "count": 107,
+          "percent": 2.22
+        },
+        {
+          "value": "Scripted Circle (Blue)",
+          "count": 116,
+          "percent": 2.4
+        },
+        {
+          "value": "Mage Aura (Orange)",
+          "count": 94,
+          "percent": 1.95
+        },
+        {
+          "value": "Scripted Mage Aura (Blue)",
+          "count": 108,
+          "percent": 2.24
+        },
+        {
+          "value": "Arcane Circuitry Halo",
+          "count": 1,
+          "percent": 0.02
+        }
+      ]
+    },
+    {
+      "traitType": "Outerwear",
+      "valueMetrics": [
+        {
+          "value": "Feather Robe (Black)",
+          "count": 67,
+          "percent": 12.03
+        },
+        {
+          "value": "Crochet (White)",
+          "count": 44,
+          "percent": 7.9
+        },
+        {
+          "value": "Feather Robe (White)",
+          "count": 273,
+          "percent": 49.01
+        },
+        {
+          "value": "Bone Corset (Black)",
+          "count": 83,
+          "percent": 14.9
+        },
+        {
+          "value": "Bone Corset (White)",
+          "count": 85,
+          "percent": 15.26
+        },
+        {
+          "value": "School Uniform (Black)",
+          "count": 5,
+          "percent": 0.9
+        }
+      ]
+    },
+    {
+      "traitType": "Facewear",
+      "valueMetrics": [
+        {
+          "value": "Jeweled Septum Ring (Blue)",
+          "count": 436,
+          "percent": 12.53
+        },
+        {
+          "value": "Simple Septum Ring (Silver)",
+          "count": 435,
+          "percent": 12.5
+        },
+        {
+          "value": "Scripted Octagon Glasses (Purple)",
+          "count": 56,
+          "percent": 1.61
+        },
+        {
+          "value": "Labret (Silver)",
+          "count": 440,
+          "percent": 12.64
+        },
+        {
+          "value": "Givenchy Nosering (Silver)",
+          "count": 88,
+          "percent": 2.53
+        },
+        {
+          "value": "Sad Girl Tears",
+          "count": 239,
+          "percent": 6.87
+        },
+        {
+          "value": "Eyepatch (Black)",
+          "count": 42,
+          "percent": 1.21
+        },
+        {
+          "value": "Bridge Piercing",
+          "count": 463,
+          "percent": 13.3
+        },
+        {
+          "value": "Blindfold (Turmeric)",
+          "count": 20,
+          "percent": 0.57
+        },
+        {
+          "value": "Septum Ring (Turquoise)",
+          "count": 452,
+          "percent": 12.98
+        },
+        {
+          "value": "Simple Octagon Glasses (Silver)",
+          "count": 208,
+          "percent": 5.98
+        },
+        {
+          "value": "Givenchy Nosering (Gold)",
+          "count": 51,
+          "percent": 1.47
+        },
+        {
+          "value": "Swiss Dot Veil (Black)",
+          "count": 86,
+          "percent": 2.47
+        },
+        {
+          "value": "Eyepatch (Rose)",
+          "count": 74,
+          "percent": 2.13
+        },
+        {
+          "value": "Blindfold (Indigo)",
+          "count": 22,
+          "percent": 0.63
+        },
+        {
+          "value": "Scripted Octagon Glasses (Blue)",
+          "count": 71,
+          "percent": 2.04
+        },
+        {
+          "value": "Pearl Veil",
+          "count": 51,
+          "percent": 1.47
+        },
+        {
+          "value": "Blindfold (Aquamarine)",
+          "count": 18,
+          "percent": 0.52
+        },
+        {
+          "value": "Mage Mark (Solidity Dragon Scales)",
+          "count": 1,
+          "percent": 0.03
+        },
+        {
+          "value": "Scripted Octagon Glasses (Green)",
+          "count": 64,
+          "percent": 1.84
+        },
+        {
+          "value": "Blindfold (Night)",
+          "count": 65,
+          "percent": 1.87
+        },
+        {
+          "value": "Blindfold (Royal)",
+          "count": 19,
+          "percent": 0.55
+        },
+        {
+          "value": "Mark of Tacolin (Silver)",
+          "count": 19,
+          "percent": 0.55
+        },
+        {
+          "value": "Eyepatch (Blue)",
+          "count": 41,
+          "percent": 1.18
+        },
+        {
+          "value": "Blindfold (Maroon)",
+          "count": 17,
+          "percent": 0.49
+        },
+        {
+          "value": "Pearl Circlet (Garnet)",
+          "count": 1,
+          "percent": 0.03
+        },
+        {
+          "value": "Pearl Band (Amethyst)",
+          "count": 1,
+          "percent": 0.03
+        },
+        {
+          "value": "Moth Gauze",
+          "count": 1,
+          "percent": 0.03
+        }
+      ]
+    },
+    {
+      "traitType": "Forehead Jewelry",
+      "valueMetrics": [
+        {
+          "value": "Darkened Demon Third Eye (Ruby)",
+          "count": 80,
+          "percent": 7.31
+        },
+        {
+          "value": "Ethereum Diadem (Gold)",
+          "count": 29,
+          "percent": 2.65
+        },
+        {
+          "value": "Demon Third Eye (Black)",
+          "count": 102,
+          "percent": 9.32
+        },
+        {
+          "value": "Punks Tiara (Gold)",
+          "count": 58,
+          "percent": 5.3
+        },
+        {
+          "value": "Ethereum Diadem (Silver)",
+          "count": 229,
+          "percent": 20.93
+        },
+        {
+          "value": "Darkened Demon Third Eye (Opal)",
+          "count": 88,
+          "percent": 8.04
+        },
+        {
+          "value": "Raised Third Eye (Pink)",
+          "count": 67,
+          "percent": 6.12
+        },
+        {
+          "value": "Darkened Demon Third Eye (Sapphire)",
+          "count": 82,
+          "percent": 7.5
+        },
+        {
+          "value": "Raised Third Eye (Red)",
+          "count": 73,
+          "percent": 6.67
+        },
+        {
+          "value": "Raised Third Eye (Green)",
+          "count": 31,
+          "percent": 2.83
+        },
+        {
+          "value": "Rope Third Eye (Purple)",
+          "count": 27,
+          "percent": 2.47
+        },
+        {
+          "value": "Darkened Demon Third Eye (Glo)",
+          "count": 74,
+          "percent": 6.76
+        },
+        {
+          "value": "Simple Circlet (Silver)",
+          "count": 43,
+          "percent": 3.93
+        },
+        {
+          "value": "Raised Third Eye (Purple)",
+          "count": 33,
+          "percent": 3.02
+        },
+        {
+          "value": "Raised Third Eye (Blue)",
+          "count": 12,
+          "percent": 1.1
+        },
+        {
+          "value": "Raised Third Eye (Gold)",
+          "count": 10,
+          "percent": 0.91
+        },
+        {
+          "value": "Radiant Third Eye (Blue)",
+          "count": 10,
+          "percent": 0.91
+        },
+        {
+          "value": "Radiant Third Eye (Green)",
+          "count": 6,
+          "percent": 0.55
+        },
+        {
+          "value": "Rope Third Eye (Blue)",
+          "count": 11,
+          "percent": 1.01
+        },
+        {
+          "value": "Rope Third Eye (Green)",
+          "count": 20,
+          "percent": 1.83
+        },
+        {
+          "value": "Radiant Third Eye (Red)",
+          "count": 6,
+          "percent": 0.55
+        },
+        {
+          "value": "Curse Tag",
+          "count": 1,
+          "percent": 0.09
+        },
+        {
+          "value": "Astrea (Gold)",
+          "count": 1,
+          "percent": 0.09
+        },
+        {
+          "value": "Horns of Dolores",
+          "count": 1,
+          "percent": 0.09
+        }
+      ]
+    },
+    {
+      "traitType": "Earrings",
+      "valueMetrics": [
+        {
+          "value": "Basic Piercings (Silver)",
+          "count": 1487,
+          "percent": 52.14
+        },
+        {
+          "value": "Mandible Cuffs (Natural)",
+          "count": 56,
+          "percent": 1.96
+        },
+        {
+          "value": "Beaded Tassel (Ruby)",
+          "count": 96,
+          "percent": 3.37
+        },
+        {
+          "value": "Pearly Skulls (Silver)",
+          "count": 137,
+          "percent": 4.8
+        },
+        {
+          "value": "Dangly Bones (Bone)",
+          "count": 227,
+          "percent": 7.96
+        },
+        {
+          "value": "Piercing Eye (Pink)",
+          "count": 34,
+          "percent": 1.19
+        },
+        {
+          "value": "Howl Gems (Green)",
+          "count": 59,
+          "percent": 2.07
+        },
+        {
+          "value": "Howl Gems (Orange)",
+          "count": 90,
+          "percent": 3.16
+        },
+        {
+          "value": "Bone Hoops (Gold)",
+          "count": 48,
+          "percent": 1.68
+        },
+        {
+          "value": "Piercing Eye (Red)",
+          "count": 29,
+          "percent": 1.02
+        },
+        {
+          "value": "Ethereum Hoops (Silver)",
+          "count": 68,
+          "percent": 2.38
+        },
+        {
+          "value": "Beaded Tassel (Sapphire)",
+          "count": 73,
+          "percent": 2.56
+        },
+        {
+          "value": "Beaded Tassel (Emerald)",
+          "count": 91,
+          "percent": 3.19
+        },
+        {
+          "value": "Bone Hoops (Silver)",
+          "count": 64,
+          "percent": 2.24
+        },
+        {
+          "value": "Piercing Eye (Purple)",
+          "count": 33,
+          "percent": 1.16
+        },
+        {
+          "value": "Fang Charm (Red)",
+          "count": 62,
+          "percent": 2.17
+        },
+        {
+          "value": "Fang Charm (Blue)",
+          "count": 38,
+          "percent": 1.33
+        },
+        {
+          "value": "Piercing Eye (Blue)",
+          "count": 43,
+          "percent": 1.51
+        },
+        {
+          "value": "Piercing Eye (Green)",
+          "count": 30,
+          "percent": 1.05
+        },
+        {
+          "value": "Howl Gems (Purple)",
+          "count": 86,
+          "percent": 3.02
+        },
+        {
+          "value": "Demeulemeester (White)",
+          "count": 1,
+          "percent": 0.04
+        }
+      ]
+    },
+    {
+      "traitType": "Face Markings",
+      "valueMetrics": [
+        {
+          "value": "Undereye Gems (White)",
+          "count": 218,
+          "percent": 7.19
+        },
+        {
+          "value": "Cheek and Chin Mole",
+          "count": 359,
+          "percent": 11.84
+        },
+        {
+          "value": "Mage Script Woods (Green)",
+          "count": 18,
+          "percent": 0.59
+        },
+        {
+          "value": "Mage Script Daedric",
+          "count": 1,
+          "percent": 0.03
+        },
+        {
+          "value": "Nose Bridge Scar",
+          "count": 381,
+          "percent": 12.57
+        },
+        {
+          "value": "Claw Marked (Black)",
+          "count": 32,
+          "percent": 1.06
+        },
+        {
+          "value": "Moon Mark (White)",
+          "count": 52,
+          "percent": 1.72
+        },
+        {
+          "value": "Eye of Hinoto",
+          "count": 65,
+          "percent": 2.14
+        },
+        {
+          "value": "Freckles",
+          "count": 394,
+          "percent": 13
+        },
+        {
+          "value": "Mage Script Melovesmealot (Blue)",
+          "count": 23,
+          "percent": 0.76
+        },
+        {
+          "value": "Mangekyō Markings (Black)",
+          "count": 43,
+          "percent": 1.42
+        },
+        {
+          "value": "Daedra",
+          "count": 50,
+          "percent": 1.65
+        },
+        {
+          "value": "Mage Script Helm (Purple)",
+          "count": 19,
+          "percent": 0.63
+        },
+        {
+          "value": "Mark of Moon Tears (White)",
+          "count": 67,
+          "percent": 2.21
+        },
+        {
+          "value": "Cheek Mole",
+          "count": 407,
+          "percent": 13.43
+        },
+        {
+          "value": "Horned Moon Markings (Purple)",
+          "count": 30,
+          "percent": 0.99
+        },
+        {
+          "value": "Mage Script Melovesmealot (Gold)",
+          "count": 25,
+          "percent": 0.82
+        },
+        {
+          "value": "Mage Script Helm (Gold)",
+          "count": 17,
+          "percent": 0.56
+        },
+        {
+          "value": "Mage Script Serpent",
+          "count": 25,
+          "percent": 0.82
+        },
+        {
+          "value": "Mage Script Serpent (Phosphorescent)",
+          "count": 21,
+          "percent": 0.69
+        },
+        {
+          "value": "Mark of the Chained Moon (White)",
+          "count": 54,
+          "percent": 1.78
+        },
+        {
+          "value": "Nega Moon Mark (Black)",
+          "count": 33,
+          "percent": 1.09
+        },
+        {
+          "value": "Mark of the Damned",
+          "count": 51,
+          "percent": 1.68
+        },
+        {
+          "value": "Mage Script Demonic (Phosphorescent)",
+          "count": 18,
+          "percent": 0.59
+        },
+        {
+          "value": "Mark of Air (White)",
+          "count": 44,
+          "percent": 1.45
+        },
+        {
+          "value": "Mark of Leon",
+          "count": 4,
+          "percent": 0.13
+        },
+        {
+          "value": "Mage Mark Moon (Blue)",
+          "count": 25,
+          "percent": 0.82
+        },
+        {
+          "value": "Star Mark (White)",
+          "count": 48,
+          "percent": 1.58
+        },
+        {
+          "value": "Mage Script Geometric (Blue)",
+          "count": 22,
+          "percent": 0.73
+        },
+        {
+          "value": "Horned Moon Markings (Black)",
+          "count": 58,
+          "percent": 1.91
+        },
+        {
+          "value": "Mark of the Wanderer",
+          "count": 16,
+          "percent": 0.53
+        },
+        {
+          "value": "Mark of the Mantis",
+          "count": 43,
+          "percent": 1.42
+        },
+        {
+          "value": "Horned Moon Markings (Red)",
+          "count": 38,
+          "percent": 1.25
+        },
+        {
+          "value": "Mark of Earth (White)",
+          "count": 41,
+          "percent": 1.35
+        },
+        {
+          "value": "Mage Script Helm (Green)",
+          "count": 19,
+          "percent": 0.63
+        },
+        {
+          "value": "Mage Script Serpent (Blue)",
+          "count": 13,
+          "percent": 0.43
+        },
+        {
+          "value": "Mage Script Serpent (Green)",
+          "count": 15,
+          "percent": 0.49
+        },
+        {
+          "value": "Claw Marked (Red)",
+          "count": 26,
+          "percent": 0.86
+        },
+        {
+          "value": "Mark of the Hierophant",
+          "count": 5,
+          "percent": 0.16
+        },
+        {
+          "value": "Mage Script Woods (Blue)",
+          "count": 22,
+          "percent": 0.73
+        },
+        {
+          "value": "Mage Script Helm (Blue)",
+          "count": 3,
+          "percent": 0.1
+        },
+        {
+          "value": "Mage Script Helm (Aqua)",
+          "count": 7,
+          "percent": 0.23
+        },
+        {
+          "value": "Mage Script Demonic (Gold)",
+          "count": 18,
+          "percent": 0.59
+        },
+        {
+          "value": "Mage Script Demonic (Green)",
+          "count": 22,
+          "percent": 0.73
+        },
+        {
+          "value": "Mage Script Melovesmealot (Purple)",
+          "count": 14,
+          "percent": 0.46
+        },
+        {
+          "value": "Cheekbone Mole",
+          "count": 1,
+          "percent": 0.03
+        },
+        {
+          "value": "Mage Script Daedric (Gold)",
+          "count": 10,
+          "percent": 0.33
+        },
+        {
+          "value": "Mage Script Daedric (Green)",
+          "count": 8,
+          "percent": 0.26
+        },
+        {
+          "value": "Mage Script Melovesmealot (Green)",
+          "count": 18,
+          "percent": 0.59
+        },
+        {
+          "value": "Mage Script Woods (Purple)",
+          "count": 20,
+          "percent": 0.66
+        },
+        {
+          "value": "Mage Script Woods (Gold)",
+          "count": 15,
+          "percent": 0.49
+        },
+        {
+          "value": "Claw Marked (Blue)",
+          "count": 12,
+          "percent": 0.4
+        },
+        {
+          "value": "Mage Script Helm (Acqua)",
+          "count": 6,
+          "percent": 0.2
+        },
+        {
+          "value": "Mage Script Demonic (Aqua)",
+          "count": 10,
+          "percent": 0.33
+        },
+        {
+          "value": "Claw Marked (Purple)",
+          "count": 5,
+          "percent": 0.16
+        },
+        {
+          "value": "Horned Moon Markings (Blue)",
+          "count": 7,
+          "percent": 0.23
+        },
+        {
+          "value": "Mage Script Daedric (Aqua)",
+          "count": 5,
+          "percent": 0.16
+        },
+        {
+          "value": "Aradia (Henna)",
+          "count": 1,
+          "percent": 0.03
+        },
+        {
+          "value": "Starry Blush (Pink)",
+          "count": 3,
+          "percent": 0.1
+        },
+        {
+          "value": "Mage Script Daedric (Blue)",
+          "count": 3,
+          "percent": 0.1
+        },
+        {
+          "value": "Nega Moon Mark (White)",
+          "count": 1,
+          "percent": 0.03
+        }
+      ]
+    },
+    {
+      "traitType": "Mask",
+      "valueMetrics": [
+        {
+          "value": "Moth Gauze (White)",
+          "count": 150,
+          "percent": 30
+        },
+        {
+          "value": "Butterfly (Rose Quartz)",
+          "count": 45,
+          "percent": 9
+        },
+        {
+          "value": "Glowing Phosphorous Mask (Purple)",
+          "count": 34,
+          "percent": 6.8
+        },
+        {
+          "value": "Butterfly (Emerald)",
+          "count": 45,
+          "percent": 9
+        },
+        {
+          "value": "Glowing Phosphorous Mask (Aqua)",
+          "count": 15,
+          "percent": 3
+        },
+        {
+          "value": "Graceful Bat",
+          "count": 65,
+          "percent": 13
+        },
+        {
+          "value": "Butterfly (Gold)",
+          "count": 53,
+          "percent": 10.6
+        },
+        {
+          "value": "Mage Glass Moon (Purple)",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "value": "Butterfly Glasses (Pink)",
+          "count": 10,
+          "percent": 2
+        },
+        {
+          "value": "Mage Glass Ribbon (Blue)",
+          "count": 12,
+          "percent": 2.4
+        },
+        {
+          "value": "Gold Veil (Gold)",
+          "count": 24,
+          "percent": 4.8
+        },
+        {
+          "value": "Mage Glass Moon (Blue)",
+          "count": 11,
+          "percent": 2.2
+        },
+        {
+          "value": "Butterfly Glasses (Cyan)",
+          "count": 14,
+          "percent": 2.8
+        },
+        {
+          "value": "Mage Glass Ribbon (Purple)",
+          "count": 7,
+          "percent": 1.4
+        },
+        {
+          "value": "Yohji",
+          "count": 1,
+          "percent": 0.2
+        }
+      ]
+    }
+  ]
+}

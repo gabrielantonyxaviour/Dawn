@@ -1,0 +1,846 @@
+{
+  "token": {
+    "__typename": "TokenWithFullMarketHistory",
+    "token": {
+      "__typename": "Token",
+      "tokenId": "3366",
+      "tokenContract": {
+        "name": "Zora",
+        "network": "ETHEREUM",
+        "description": null,
+        "collectionAddress": "0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7",
+        "symbol": "ZORA",
+        "chain": 1
+      },
+      "mintInfo": {
+        "price": {
+          "__typename": "PriceAtTime",
+          "blockNumber": 12545032,
+          "chainTokenPrice": {
+            "decimal": 0,
+            "raw": "0"
+          },
+          "nativePrice": {
+            "decimal": 0,
+            "raw": "0",
+            "currency": {
+              "address": "0x0000000000000000000000000000000000000000",
+              "decimals": 18,
+              "name": "ETH"
+            }
+          },
+          "usdcPrice": {
+            "decimal": 0,
+            "raw": "0"
+          }
+        },
+        "originatorAddress": "0x337071a7e907f5a599747a2c9baf6efdf7eb4bcc",
+        "toAddress": "0x337071a7e907f5a599747a2c9baf6efdf7eb4bcc",
+        "mintContext": {
+          "__typename": "TransactionInfo",
+          "blockNumber": 12545032,
+          "blockTimestamp": "2021-05-31T23:16:42+00:00",
+          "transactionHash": "0xe7577a360d884cf8bec8e9a99cb8ca89722153a89588eaa3b1569b619892e1de",
+          "logIndex": 86
+        }
+      },
+      "collectionAddress": "0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7",
+      "lastRefreshTime": "2022-06-01T18:47:00.792000+00:00",
+      "owner": "0xbaac2b4491727d78d2b78815144570b9f2fe8899",
+      "name": "Doge",
+      "description": "The original image that started it all. This photo of the Shiba Inu “Kabosu” was taken by her owner Atsuko Sato on February 13th, 2010. After sharing it to her personal blog alongside the series of other famous images under the title “Taking a walk with Kabosu-chan,” these photos went on to kickstart the Doge meme and have circulated the web ever since — none more iconic than this picture.",
+      "image": {
+        "size": null,
+        "url": null,
+        "mimeType": null,
+        "mediaEncoding": {
+          "__typename": "UnsupportedEncodingTypes",
+          "original": "https://api.zora.co/media/ETHEREUM-MAINNET/0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7/3366/image/original"
+        }
+      },
+      "content": {
+        "size": null,
+        "url": "https://ipfs.fleek.co/ipfs/bafybeiejv7o3zqcizio3jpcc5geucdvci73klmf7kazyzpvyp5qn64ny4a",
+        "mimeType": "image/png",
+        "mediaEncoding": {
+          "__typename": "ImageEncodingTypes",
+          "original": "https://api.zora.co/media/ETHEREUM-MAINNET/0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7/3366/content/original",
+          "large": "https://api.zora.co/media/ETHEREUM-MAINNET/0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7/3366/content/large",
+          "poster": "https://api.zora.co/media/ETHEREUM-MAINNET/0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7/3366/content/poster",
+          "thumbnail": "https://api.zora.co/media/ETHEREUM-MAINNET/0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7/3366/content/thumbnail"
+        }
+      },
+      "metadata": {
+        "description": "The original image that started it all. This photo of the Shiba Inu “Kabosu” was taken by her owner Atsuko Sato on February 13th, 2010. After sharing it to her personal blog alongside the series of other famous images under the title “Taking a walk with Kabosu-chan,” these photos went on to kickstart the Doge meme and have circulated the web ever since — none more iconic than this picture.",
+        "mimeType": "image/png",
+        "name": "Doge",
+        "version": "zora-20210101"
+      },
+      "tokenUrl": "https://ipfs.fleek.co/ipfs/bafybeiftzakarjaccrwwk3kgdnxsu3e6yb2myruwgu4z5hrmhe4epfbkya",
+      "tokenUrlMimeType": "image/png",
+      "attributes": []
+    },
+    "sales": [
+      {
+        "saleContractAddress": "0xe468ce99444174bd3bbbed09209577d25d1ad673",
+        "transactionInfo": {
+          "blockNumber": 12614591,
+          "blockTimestamp": "2021-06-11T17:28:15+00:00",
+          "transactionHash": "0x8668bb338f7cf9896db75c00e8bef18cc549d04b2dcaf1cee01dc0e1522e7e87",
+          "logIndex": 219
+        },
+        "buyerAddress": "0xf5c27c6fe782cbb5c85989ea3e75754748153459",
+        "collectionAddress": "0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7",
+        "price": {
+          "blockNumber": 12614591,
+          "chainTokenPrice": {
+            "decimal": 1696.9,
+            "raw": "1696900000000000000000"
+          },
+          "nativePrice": {
+            "decimal": 1696.9,
+            "raw": "1696900000000000000000",
+            "currency": {
+              "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+              "decimals": 18,
+              "name": "WETH"
+            }
+          },
+          "usdcPrice": {
+            "decimal": 4066268.8662647507,
+            "raw": "4066268866264750685683712"
+          }
+        },
+        "sellerAddress": "0x337071a7e907f5a599747a2c9baf6efdf7eb4bcc",
+        "tokenId": "3366"
+      }
+    ],
+    "events": [
+      {
+        "transactionInfo": {
+          "blockNumber": 15283649,
+          "blockTimestamp": "2022-08-05T17:25:38+00:00",
+          "transactionHash": "0xa19178fda98a673dd64aaabbc8f99a5483c5815c0a949f481d484092111bde09",
+          "logIndex": 529
+        },
+        "eventType": "APPROVAL_EVENT",
+        "collectionAddress": "0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7",
+        "tokenId": null,
+        "properties": {
+          "__typename": "ApprovalEvent"
+        }
+      },
+      {
+        "transactionInfo": {
+          "blockNumber": 15283040,
+          "blockTimestamp": "2022-08-05T15:04:48+00:00",
+          "transactionHash": "0x4be846cb8e6df369ad2ed339401469bf555b397a952ba1002f34771c8172e58c",
+          "logIndex": 134
+        },
+        "eventType": "APPROVAL_EVENT",
+        "collectionAddress": "0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7",
+        "tokenId": null,
+        "properties": {
+          "__typename": "ApprovalEvent"
+        }
+      },
+      {
+        "transactionInfo": {
+          "blockNumber": 15282974,
+          "blockTimestamp": "2022-08-05T14:52:18+00:00",
+          "transactionHash": "0x96e33c1c99c4f36057a3548834fbebd067273ed9f6a6fc65487a7a99a4b625b9",
+          "logIndex": 175
+        },
+        "eventType": "APPROVAL_EVENT",
+        "collectionAddress": "0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7",
+        "tokenId": null,
+        "properties": {
+          "__typename": "ApprovalEvent"
+        }
+      },
+      {
+        "transactionInfo": {
+          "blockNumber": 15282970,
+          "blockTimestamp": "2022-08-05T14:51:56+00:00",
+          "transactionHash": "0x967806e6179a8f8a7738aa9bdc95a5f8be11a2629febd938d531fe01bb5d516d",
+          "logIndex": 259
+        },
+        "eventType": "APPROVAL_EVENT",
+        "collectionAddress": "0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7",
+        "tokenId": null,
+        "properties": {
+          "__typename": "ApprovalEvent"
+        }
+      },
+      {
+        "transactionInfo": {
+          "blockNumber": 15282822,
+          "blockTimestamp": "2022-08-05T14:17:07+00:00",
+          "transactionHash": "0xb1c4871f4691a17759c3737956486bdf6959cf4dfdfbafd58146b5681d2d2cad",
+          "logIndex": 116
+        },
+        "eventType": "APPROVAL_EVENT",
+        "collectionAddress": "0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7",
+        "tokenId": null,
+        "properties": {
+          "__typename": "ApprovalEvent"
+        }
+      },
+      {
+        "transactionInfo": {
+          "blockNumber": 15282749,
+          "blockTimestamp": "2022-08-05T14:00:17+00:00",
+          "transactionHash": "0x23f434387855d3f03c689d4459575e23101a5e320c0276e7f3130bfe7f643eda",
+          "logIndex": 208
+        },
+        "eventType": "APPROVAL_EVENT",
+        "collectionAddress": "0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7",
+        "tokenId": null,
+        "properties": {
+          "__typename": "ApprovalEvent"
+        }
+      },
+      {
+        "transactionInfo": {
+          "blockNumber": 15282674,
+          "blockTimestamp": "2022-08-05T13:46:06+00:00",
+          "transactionHash": "0xa53f451ef5ba9757114e37a4959b22f619051ec8e51b01d78684f214b1252e05",
+          "logIndex": 362
+        },
+        "eventType": "APPROVAL_EVENT",
+        "collectionAddress": "0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7",
+        "tokenId": null,
+        "properties": {
+          "__typename": "ApprovalEvent"
+        }
+      },
+      {
+        "transactionInfo": {
+          "blockNumber": 15282503,
+          "blockTimestamp": "2022-08-05T13:09:23+00:00",
+          "transactionHash": "0x9eaf4157c25ffb3ba2df32df6bed56cf17e5aa9b5bfd9ca164fc2cfd61024203",
+          "logIndex": 581
+        },
+        "eventType": "APPROVAL_EVENT",
+        "collectionAddress": "0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7",
+        "tokenId": null,
+        "properties": {
+          "__typename": "ApprovalEvent"
+        }
+      },
+      {
+        "transactionInfo": {
+          "blockNumber": 15282455,
+          "blockTimestamp": "2022-08-05T12:58:10+00:00",
+          "transactionHash": "0x9c7613fd83d1fd11b0e7da2a67bab98ad02cbd358e7382193908e4812de4a86f",
+          "logIndex": 364
+        },
+        "eventType": "APPROVAL_EVENT",
+        "collectionAddress": "0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7",
+        "tokenId": null,
+        "properties": {
+          "__typename": "ApprovalEvent"
+        }
+      },
+      {
+        "transactionInfo": {
+          "blockNumber": 15282372,
+          "blockTimestamp": "2022-08-05T12:40:05+00:00",
+          "transactionHash": "0x80c66f9c2a59a3f955bd582b4943fbbe3fadc5b9c7de92981145d342374e55f9",
+          "logIndex": 242
+        },
+        "eventType": "APPROVAL_EVENT",
+        "collectionAddress": "0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7",
+        "tokenId": null,
+        "properties": {
+          "__typename": "ApprovalEvent"
+        }
+      }
+    ],
+    "markets": [
+      {
+        "collectionAddress": "0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7",
+        "marketAddress": "0xe5bfab544eca83849c53464f85b7164375bdaac1",
+        "marketType": "V1_ASK",
+        "transactionInfo": {
+          "blockNumber": 12545434,
+          "blockTimestamp": "2021-06-01T00:43:04+00:00",
+          "transactionHash": "0x951f722724032a4f1141d4201fcb26bb1908160758d37d549ace2fb620ab239f",
+          "logIndex": 219
+        },
+        "price": {
+          "blockNumber": 12545434,
+          "chainTokenPrice": {
+            "decimal": 0,
+            "raw": "0"
+          },
+          "nativePrice": {
+            "decimal": 0,
+            "raw": "0",
+            "currency": {
+              "address": "0x0000000000000000000000000000000000000000",
+              "decimals": 18,
+              "name": "ETH"
+            }
+          },
+          "usdcPrice": {
+            "decimal": 0,
+            "raw": "0"
+          }
+        },
+        "status": "CANCELED",
+        "networkInfo": {
+          "chain": "MAINNET",
+          "network": "ETHEREUM"
+        },
+        "properties": {
+          "__typename": "V1Ask",
+          "v1AskStatus": "CANCELED",
+          "currency": "0x0000000000000000000000000000000000000000",
+          "amount": {
+            "blockNumber": 12545434,
+            "chainTokenPrice": {
+              "decimal": 0,
+              "raw": "0"
+            },
+            "nativePrice": {
+              "decimal": 0,
+              "raw": "0",
+              "currency": {
+                "address": "0x0000000000000000000000000000000000000000",
+                "decimals": 18,
+                "name": "ETH"
+              }
+            },
+            "usdcPrice": {
+              "decimal": 0,
+              "raw": "0"
+            }
+          }
+        }
+      },
+      {
+        "collectionAddress": "0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7",
+        "marketAddress": "0xe5bfab544eca83849c53464f85b7164375bdaac1",
+        "marketType": "V1_OFFER",
+        "transactionInfo": {
+          "blockNumber": 12590649,
+          "blockTimestamp": "2021-06-08T00:28:00+00:00",
+          "transactionHash": "0x933d832cddadde37b4f04b22be665fcca52cac316bff3dfb3560311cf6fce94b",
+          "logIndex": 368
+        },
+        "price": {
+          "blockNumber": 12590649,
+          "chainTokenPrice": {
+            "decimal": 0.2,
+            "raw": "200000000000000000"
+          },
+          "nativePrice": {
+            "decimal": 0.2,
+            "raw": "200000000000000000",
+            "currency": {
+              "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+              "decimals": 18,
+              "name": "WETH"
+            }
+          },
+          "usdcPrice": {
+            "decimal": 519.431526267335,
+            "raw": "519431526267335016448"
+          }
+        },
+        "status": "CANCELED",
+        "networkInfo": {
+          "chain": "MAINNET",
+          "network": "ETHEREUM"
+        },
+        "properties": {
+          "__typename": "V1Offer",
+          "v1OfferStatus": "CANCELED",
+          "sellOnShare": "0",
+          "bidder": "0x95921da9f69d177c1c4421ff3b70446883c538b8",
+          "currency": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "amount": {
+            "blockNumber": 12590649,
+            "chainTokenPrice": {
+              "decimal": 0.2,
+              "raw": "200000000000000000"
+            },
+            "nativePrice": {
+              "decimal": 0.2,
+              "raw": "200000000000000000",
+              "currency": {
+                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "decimals": 18,
+                "name": "WETH"
+              }
+            },
+            "usdcPrice": {
+              "decimal": 519.431526267335,
+              "raw": "519431526267335016448"
+            }
+          }
+        }
+      },
+      {
+        "collectionAddress": "0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7",
+        "marketAddress": "0xe5bfab544eca83849c53464f85b7164375bdaac1",
+        "marketType": "V1_BID_SHARE",
+        "transactionInfo": {
+          "blockNumber": 12614591,
+          "blockTimestamp": "2021-06-11T17:28:15+00:00",
+          "transactionHash": "0x8668bb338f7cf9896db75c00e8bef18cc549d04b2dcaf1cee01dc0e1522e7e87",
+          "logIndex": 215
+        },
+        "price": null,
+        "status": "ACTIVE",
+        "networkInfo": {
+          "chain": "MAINNET",
+          "network": "ETHEREUM"
+        },
+        "properties": {
+          "__typename": "V1BidShare"
+        }
+      },
+      {
+        "collectionAddress": "0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7",
+        "marketAddress": "0xe5bfab544eca83849c53464f85b7164375bdaac1",
+        "marketType": "V1_ASK",
+        "transactionInfo": {
+          "blockNumber": 12614591,
+          "blockTimestamp": "2021-06-11T17:28:15+00:00",
+          "transactionHash": "0x8668bb338f7cf9896db75c00e8bef18cc549d04b2dcaf1cee01dc0e1522e7e87",
+          "logIndex": 216
+        },
+        "price": {
+          "blockNumber": 12614591,
+          "chainTokenPrice": {
+            "decimal": 1696.9,
+            "raw": "1696900000000000000000"
+          },
+          "nativePrice": {
+            "decimal": 1696.9,
+            "raw": "1696900000000000000000",
+            "currency": {
+              "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+              "decimals": 18,
+              "name": "WETH"
+            }
+          },
+          "usdcPrice": {
+            "decimal": 4066268.8662647507,
+            "raw": "4066268866264750685683712"
+          }
+        },
+        "status": "COMPLETED",
+        "networkInfo": {
+          "chain": "MAINNET",
+          "network": "ETHEREUM"
+        },
+        "properties": {
+          "__typename": "V1Ask",
+          "v1AskStatus": "COMPLETED",
+          "currency": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "amount": {
+            "blockNumber": 12614591,
+            "chainTokenPrice": {
+              "decimal": 1696.9,
+              "raw": "1696900000000000000000"
+            },
+            "nativePrice": {
+              "decimal": 1696.9,
+              "raw": "1696900000000000000000",
+              "currency": {
+                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "decimals": 18,
+                "name": "WETH"
+              }
+            },
+            "usdcPrice": {
+              "decimal": 4066268.8662647507,
+              "raw": "4066268866264750685683712"
+            }
+          }
+        }
+      },
+      {
+        "collectionAddress": "0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7",
+        "marketAddress": "0xe5bfab544eca83849c53464f85b7164375bdaac1",
+        "marketType": "V1_OFFER",
+        "transactionInfo": {
+          "blockNumber": 12592027,
+          "blockTimestamp": "2021-06-08T05:35:25+00:00",
+          "transactionHash": "0x511854e3083d85a91e614cfe3c2bb8ad2738715e194e2a2bee0ef46ef3815f47",
+          "logIndex": 307
+        },
+        "price": {
+          "blockNumber": 12592027,
+          "chainTokenPrice": {
+            "decimal": 0.8,
+            "raw": "800000000000000000"
+          },
+          "nativePrice": {
+            "decimal": 0.8,
+            "raw": "800000000000000000",
+            "currency": {
+              "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+              "decimals": 18,
+              "name": "WETH"
+            }
+          },
+          "usdcPrice": {
+            "decimal": 1975.4677792515606,
+            "raw": "1975467779251560513536"
+          }
+        },
+        "status": "CANCELED",
+        "networkInfo": {
+          "chain": "MAINNET",
+          "network": "ETHEREUM"
+        },
+        "properties": {
+          "__typename": "V1Offer",
+          "v1OfferStatus": "CANCELED",
+          "sellOnShare": "16000000000000000000",
+          "bidder": "0x737284cfc66fd5989f2ac866989d70ae134227cb",
+          "currency": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "amount": {
+            "blockNumber": 12592027,
+            "chainTokenPrice": {
+              "decimal": 0.8,
+              "raw": "800000000000000000"
+            },
+            "nativePrice": {
+              "decimal": 0.8,
+              "raw": "800000000000000000",
+              "currency": {
+                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "decimals": 18,
+                "name": "WETH"
+              }
+            },
+            "usdcPrice": {
+              "decimal": 1975.4677792515606,
+              "raw": "1975467779251560513536"
+            }
+          }
+        }
+      },
+      {
+        "collectionAddress": "0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7",
+        "marketAddress": "0xe5bfab544eca83849c53464f85b7164375bdaac1",
+        "marketType": "V1_OFFER",
+        "transactionInfo": {
+          "blockNumber": 12590594,
+          "blockTimestamp": "2021-06-08T00:15:05+00:00",
+          "transactionHash": "0xd88426655e676fc5c7ac068ba6e34ddcacedb18e03d083a3f573c62245d6e393",
+          "logIndex": 126
+        },
+        "price": {
+          "blockNumber": 12590594,
+          "chainTokenPrice": {
+            "decimal": 1.25,
+            "raw": "1250000000000000000"
+          },
+          "nativePrice": {
+            "decimal": 1.25,
+            "raw": "1250000000000000000",
+            "currency": {
+              "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+              "decimals": 18,
+              "name": "WETH"
+            }
+          },
+          "usdcPrice": {
+            "decimal": 3246.1771214421883,
+            "raw": "3246177121442188492800"
+          }
+        },
+        "status": "ACTIVE",
+        "networkInfo": {
+          "chain": "MAINNET",
+          "network": "ETHEREUM"
+        },
+        "properties": {
+          "__typename": "V1Offer",
+          "v1OfferStatus": "ACTIVE",
+          "sellOnShare": "0",
+          "bidder": "0x8bb18f1eeb8d170f4edfe2c5d008986171b4e572",
+          "currency": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "amount": {
+            "blockNumber": 12590594,
+            "chainTokenPrice": {
+              "decimal": 1.25,
+              "raw": "1250000000000000000"
+            },
+            "nativePrice": {
+              "decimal": 1.25,
+              "raw": "1250000000000000000",
+              "currency": {
+                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "decimals": 18,
+                "name": "WETH"
+              }
+            },
+            "usdcPrice": {
+              "decimal": 3246.1771214421883,
+              "raw": "3246177121442188492800"
+            }
+          }
+        }
+      },
+      {
+        "collectionAddress": "0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7",
+        "marketAddress": "0xe5bfab544eca83849c53464f85b7164375bdaac1",
+        "marketType": "V1_OFFER",
+        "transactionInfo": {
+          "blockNumber": 12613498,
+          "blockTimestamp": "2021-06-11T13:26:35+00:00",
+          "transactionHash": "0xdbd9745ceb61c42bd527c979fffd1d19e959affdee578692cb2cd235dae8fdf0",
+          "logIndex": 427
+        },
+        "price": {
+          "blockNumber": 12613498,
+          "chainTokenPrice": {
+            "decimal": 6,
+            "raw": "6000000000000000000"
+          },
+          "nativePrice": {
+            "decimal": 6,
+            "raw": "6000000000000000000",
+            "currency": {
+              "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+              "decimals": 18,
+              "name": "WETH"
+            }
+          },
+          "usdcPrice": {
+            "decimal": 14797.623186528037,
+            "raw": "14797623186528036454400"
+          }
+        },
+        "status": "CANCELED",
+        "networkInfo": {
+          "chain": "MAINNET",
+          "network": "ETHEREUM"
+        },
+        "properties": {
+          "__typename": "V1Offer",
+          "v1OfferStatus": "CANCELED",
+          "sellOnShare": "10000000000000000000",
+          "bidder": "0x39eeb91d9e1ef80170a99ad0221bb20a0fef1b8e",
+          "currency": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "amount": {
+            "blockNumber": 12613498,
+            "chainTokenPrice": {
+              "decimal": 6,
+              "raw": "6000000000000000000"
+            },
+            "nativePrice": {
+              "decimal": 6,
+              "raw": "6000000000000000000",
+              "currency": {
+                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "decimals": 18,
+                "name": "WETH"
+              }
+            },
+            "usdcPrice": {
+              "decimal": 14797.623186528037,
+              "raw": "14797623186528036454400"
+            }
+          }
+        }
+      },
+      {
+        "collectionAddress": "0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7",
+        "marketAddress": "0xe5bfab544eca83849c53464f85b7164375bdaac1",
+        "marketType": "V1_OFFER",
+        "transactionInfo": {
+          "blockNumber": 12594452,
+          "blockTimestamp": "2021-06-08T14:35:41+00:00",
+          "transactionHash": "0xc6c5d94bd82719585e6a246c5ce7b6135a5cd0d0bda7b0bc2e1b1bc9e9df015c",
+          "logIndex": 134
+        },
+        "price": {
+          "blockNumber": 12594452,
+          "chainTokenPrice": {
+            "decimal": 4.169449146401615,
+            "raw": "4169449"
+          },
+          "nativePrice": {
+            "decimal": 10000,
+            "raw": "10000000000",
+            "currency": {
+              "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+              "decimals": 6,
+              "name": "USDC"
+            }
+          },
+          "usdcPrice": {
+            "decimal": 10000,
+            "raw": "10000000000"
+          }
+        },
+        "status": "CANCELED",
+        "networkInfo": {
+          "chain": "MAINNET",
+          "network": "ETHEREUM"
+        },
+        "properties": {
+          "__typename": "V1Offer",
+          "v1OfferStatus": "CANCELED",
+          "sellOnShare": "0",
+          "bidder": "0xaf4e5b040642274b42d8601fada5216f2add0031",
+          "currency": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "amount": {
+            "blockNumber": 12594452,
+            "chainTokenPrice": {
+              "decimal": 4.169449146401615,
+              "raw": "4169449"
+            },
+            "nativePrice": {
+              "decimal": 10000,
+              "raw": "10000000000",
+              "currency": {
+                "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                "decimals": 6,
+                "name": "USDC"
+              }
+            },
+            "usdcPrice": {
+              "decimal": 10000,
+              "raw": "10000000000"
+            }
+          }
+        }
+      },
+      {
+        "collectionAddress": "0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7",
+        "marketAddress": "0xe5bfab544eca83849c53464f85b7164375bdaac1",
+        "marketType": "V1_OFFER",
+        "transactionInfo": {
+          "blockNumber": 12593622,
+          "blockTimestamp": "2021-06-08T11:33:27+00:00",
+          "transactionHash": "0xd36c4f3daacc150d0e845b1c3a5879005da914ed1ae22764c8507698307a42c5",
+          "logIndex": 363
+        },
+        "price": {
+          "blockNumber": 12593622,
+          "chainTokenPrice": {
+            "decimal": 2.7979157219964943,
+            "raw": "2797915"
+          },
+          "nativePrice": {
+            "decimal": 7000,
+            "raw": "7000000000",
+            "currency": {
+              "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+              "decimals": 6,
+              "name": "USDC"
+            }
+          },
+          "usdcPrice": {
+            "decimal": 7000,
+            "raw": "7000000000"
+          }
+        },
+        "status": "CANCELED",
+        "networkInfo": {
+          "chain": "MAINNET",
+          "network": "ETHEREUM"
+        },
+        "properties": {
+          "__typename": "V1Offer",
+          "v1OfferStatus": "CANCELED",
+          "sellOnShare": "0",
+          "bidder": "0xaf4e5b040642274b42d8601fada5216f2add0031",
+          "currency": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+          "amount": {
+            "blockNumber": 12593622,
+            "chainTokenPrice": {
+              "decimal": 2.7979157219964943,
+              "raw": "2797915"
+            },
+            "nativePrice": {
+              "decimal": 7000,
+              "raw": "7000000000",
+              "currency": {
+                "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                "decimals": 6,
+                "name": "USDC"
+              }
+            },
+            "usdcPrice": {
+              "decimal": 7000,
+              "raw": "7000000000"
+            }
+          }
+        }
+      },
+      {
+        "collectionAddress": "0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7",
+        "marketAddress": "0xe5bfab544eca83849c53464f85b7164375bdaac1",
+        "marketType": "V1_OFFER",
+        "transactionInfo": {
+          "blockNumber": 12590326,
+          "blockTimestamp": "2021-06-07T23:16:57+00:00",
+          "transactionHash": "0xa11f8c1175ba93c2572ffd476efcbcc81d53a0206495b2185601011cc18fc670",
+          "logIndex": 369
+        },
+        "price": {
+          "blockNumber": 12590326,
+          "chainTokenPrice": {
+            "decimal": 0.6,
+            "raw": "600000000000000000"
+          },
+          "nativePrice": {
+            "decimal": 0.6,
+            "raw": "600000000000000000",
+            "currency": {
+              "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+              "decimals": 18,
+              "name": "WETH"
+            }
+          },
+          "usdcPrice": {
+            "decimal": 1572.5974657536171,
+            "raw": "1572597465753617170432"
+          }
+        },
+        "status": "CANCELED",
+        "networkInfo": {
+          "chain": "MAINNET",
+          "network": "ETHEREUM"
+        },
+        "properties": {
+          "__typename": "V1Offer",
+          "v1OfferStatus": "CANCELED",
+          "sellOnShare": "15000000000000000000",
+          "bidder": "0xaf4e5b040642274b42d8601fada5216f2add0031",
+          "currency": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "amount": {
+            "blockNumber": 12590326,
+            "chainTokenPrice": {
+              "decimal": 0.6,
+              "raw": "600000000000000000"
+            },
+            "nativePrice": {
+              "decimal": 0.6,
+              "raw": "600000000000000000",
+              "currency": {
+                "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                "decimals": 18,
+                "name": "WETH"
+              }
+            },
+            "usdcPrice": {
+              "decimal": 1572.5974657536171,
+              "raw": "1572597465753617170432"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

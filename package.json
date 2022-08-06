@@ -1,0 +1,29 @@
+{
+  "name": "zoratest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/main.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@devraelfreeze/discordjs-pagination": "^2.4.0",
+    "@discordjs/rest": "^1.0.1",
+    "@zoralabs/zdk": "^2.1.3",
+    "discord.js": "^14.1.2",
+    "dotenv": "^16.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "nodemonConfig": {
+    "ext": "js,ejs,jpg,png,gif,svg,css,html,ts,env",
+    "watch": [
+      "src"
+    ]
+  }
+}
