@@ -3,54 +3,24 @@ sidebar_position: 1
 title: Dawn V2
 ---
 
-# Manage Docs Versions
+# What's Next?
 
-Docusaurus can manage multiple versions of your docs.
+We are planning to launch **Dawn V2** soon after getting the feedback from users.
 
-## Create a docs version
+Here are some features that remain in top priority for us:
 
-Release a version 1.0 of your project:
+### Favourites
 
-```bash
-npm run docusaurus docs:version 1.0
-```
+Admins can set a token Id (Image NFTs or music) as favourites and use them to display NFTs or play music in the channels
 
-The `docs` folder is copied into `versioned_docs/version-1.0` and `versions.json` is created.
+### Music Playlists
 
-Your docs now have 2 versions:
+Admins or people with assigned roles can create playlists which will be encrypted and stored in a decentralized storage and can be fetched to play in voice channels.
 
-- `1.0` at `http://localhost:3000/docs/` for the version 1.0 docs
-- `current` at `http://localhost:3000/docs/next/` for the **upcoming, unreleased docs**
+### Schedulers
 
-## Add a Version Dropdown
+Admins can set schedulers to the auctions and Asks they create to advertise this listings to his community.
 
-To navigate seamlessly across versions, add a version dropdown.
+### Mint, Ask, Auction
 
-Modify the `docusaurus.config.js` file:
-
-```js title="docusaurus.config.js"
-module.exports = {
-  themeConfig: {
-    navbar: {
-      items: [
-        // highlight-start
-        {
-          type: "docsVersionDropdown",
-        },
-        // highlight-end
-      ],
-    },
-  },
-};
-```
-
-The docs version dropdown appears in your navbar:
-
-![Docs Version Dropdown](./img/docsVersionDropdown.png)
-
-## Update an existing version
-
-It is possible to edit versioned docs in their respective folder:
-
-- `versioned_docs/version-1.0/hello.md` updates `http://localhost:3000/docs/hello`
-- `docs/hello.md` updates `http://localhost:3000/docs/next/hello`
+Anyone can mint list or auction NFTs by a quick browser redirect which automatically stores data in our encrypted storage.

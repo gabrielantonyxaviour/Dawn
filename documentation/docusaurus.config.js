@@ -36,27 +36,6 @@ const config = {
   ],
 
   themeConfig: {
-    // navbar: {
-    //   title: "My Site",
-    //   logo: {
-    //     alt: "My Site Logo",
-    //     src: "img/logo.svg",
-    //   },
-    //   items: [
-    //     {
-    //       type: "doc",
-    //       docId: "intro",
-    //       position: "left",
-    //       label: "Tutorial",
-    //     },
-    //     { to: "/blog", label: "Blog", position: "left" },
-    //     {
-    //       href: "https://github.com/facebook/docusaurus",
-    //       label: "GitHub",
-    //       position: "right",
-    //     },
-    //   ],
-    // },
     navbar: {
       logo: {
         alt: "Dawn Docs Logo",
@@ -72,18 +51,18 @@ const config = {
         },
         {
           position: "left",
-          label: "Contracts",
-          to: "/docs/smart-contracts/zora-V3",
+          label: "Commands",
+          to: "/docs/category/slash-commands/",
         },
         {
           position: "left",
-          label: "API",
-          to: "/docs/zora-api/intro",
+          label: "What's next",
+          to: "/docs/category/whats-next/",
         },
         {
-          position: "left",
-          label: "Tools",
-          to: "/docs/developer-tools/nft-rendering/introduction",
+          position: "right",
+          href: "https://github.com/gabrielantonyxaviour/Dawn",
+          label: "Github",
         },
       ],
     },

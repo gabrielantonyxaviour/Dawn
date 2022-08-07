@@ -1,11 +1,19 @@
 ---
 sidebar_position: 1
-title: Getting Started
+title: Introduction
 ---
 
 # Dawn
 
-A user-freindly bot for **Zora Protocol**.
+**View** and **listen** to NFTs using our user friendly discord bot built with **Zora Protocol**.
+
+## Project Description
+
+This project **displays NFT collections data and individual NFT data** in discord with our user friendly discord bot. One can get any data related to an NFT collection **attributes**, **sales**, **floor price** and much more.
+
+We have integrated the full power of the **[Zora API](https://docs.zora.co/docs/zora-api/intro)** in our discord bot and it can fetch a lot of useful data that can be used to view your NFTs and collections with your friends or create your personal server where you can flex your NFTs to your members and build a community around it. It can also be used for public sale events and live data fetching.
+
+We also have a special feature where one can **play any music NFTs** in the voice channels. Who needs Hydra or Vexera, eh? XD.
 
 ## Getting Started
 
@@ -17,5 +25,3 @@ Click **[here](https://docusaurus.new)** to add the bot in your server.
 
 - Administrator
 - Create Slash Commands
-
-## Setup
