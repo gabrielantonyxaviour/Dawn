@@ -9,7 +9,7 @@ const {
 
 module.exports = {
   data: new SlashCommandBuilder()
-    .setName("dawn-nfcollections")
+    .setName("dawn-nfcollection")
     .setDescription(
       "Gets data for a specific NFT collection based on an address."
     )
@@ -20,15 +20,14 @@ module.exports = {
         .setDescription("The address of the collection")
     ),
   async execute(interaction) {
-    let address = interaction.options.get("address");
+    let address = interaction.options.get("address").value;
     await interaction.deferReply();
     try {
-      let details = await fetchCollection(address.value);
+      let details = await fetchCollection(address);
       let embeds = [];
       let embed = new EmbedBuilder()
         .setTitle(
-          `Collection Details for ${
-            details?.name.length ? details?.name : "Unknown"
+          `Collection Details for ${details?.name.length ? details?.name : "Unknown"
           }`
         )
         .setDescription(
@@ -103,5 +102,6 @@ module.exports = {
         ephemeral: true,
       });
     }
+
   },
 };

@@ -1,6 +1,7 @@
 const { SlashCommandBuilder } = require("discord.js");
 const {
   fetchAggregateAttributes,
+  fetchAggregateAttributesWithTokenId
 } = require("../functions/query-aggregateAttributes");
 const {
   pagination,
@@ -18,12 +19,26 @@ module.exports = {
         .setName("address")
         .setRequired(true)
         .setDescription("The address of the collection")
+    )
+    .addStringOption((option) =>
+      option
+        .setName("token_id")
+        .setDescription("The token_id of the NFT to get properties for")
     ),
   async execute(interaction) {
     let address = interaction.options.get("address").value;
+    let tokenId = interaction.options.get("token_id")?.value;
     await interaction.deferReply();
     try {
-      let details = await fetchAggregateAttributes(address);
+      let details;
+      if (tokenId) {
+        details = await fetchAggregateAttributesWithTokenId(
+          address,
+          tokenId
+        );
+      } else {
+        details = await fetchAggregateAttributes(address);
+      }
       let traitType = [];
       let traitValue = [];
       let percent = [];
@@ -101,5 +116,6 @@ module.exports = {
         ephemeral: true,
       });
     }
+
   },
 };

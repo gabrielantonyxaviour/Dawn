@@ -16,7 +16,7 @@ const zdk = new ZDK(args);
 // refer https://docs.zora.co/docs/zora-api/zdk#events
 
 async function fetchEvents(
-  collectionAddress,
+  collectionAddresses,
   eventTypes = [
     "APPROVAL_EVENT",
     "TRANSFER_EVENT",
@@ -29,7 +29,7 @@ async function fetchEvents(
 ) {
   return await zdk.events({
     where: {
-      collectionAddress,
+      collectionAddresses,
     },
     sort: {
       direction: "DESC",

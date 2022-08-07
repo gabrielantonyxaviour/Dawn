@@ -1,5 +1,5 @@
 const { SlashCommandBuilder } = require("discord.js");
-const { fetchEvents } = require("../functions/query-events");
+const { fetchEvents, fetchEventsforTokenId } = require("../functions/query-events");
 const {
   pagination,
   TypesButtons,
@@ -18,11 +18,46 @@ module.exports = {
         .setName("address")
         .setRequired(true)
         .setDescription("List of collection addresses to filter by")
-    ),
+    )
+    .addStringOption((option) =>
+      option
+        .setName("token_id")
+        .setDescription("Token ID to filter by")
+    )
+    .addStringOption((option) =>
+      option
+        .setName("event_type")
+        .setDescription("List of all event types")
+        .addChoices(
+          { name: 'APPROVAL EVENT', value: 'APPROVAL_EVENT' },
+          { name: 'TRANSFER EVENT', value: 'TRANSFER_EVENT' },
+          { name: 'SALE EVENT', value: 'SALE_EVENT' },
+          { name: 'MINT EVENT', value: 'MINT_EVENT' },
+          { name: 'V1 MARKET EVENT', value: 'V1_MARKET_EVENT' },
+          { name: 'V2 AUCTION EVENT', value: 'V2_AUCTION_EVENT' },
+          { name: 'V3 ASK EVENT', value: 'V3_ASK_EVENT' },
+
+        )),
   async execute(interaction) {
     let address = interaction.options.get("address").value;
+    let eventTypes = interaction.options.get("event_type")?.value;
+    let tokenId = interaction.options.get("token_id")?.value;
     await interaction.deferReply();
-    let tokenDetails = await fetchEvents(address);
+    let tokenDetails;
+    if (tokenId) {
+      if (eventTypes) {
+        tokenDetails = await fetchEventsforTokenId(address, tokenId, [eventTypes]);
+      } else {
+        tokenDetails = await fetchEventsforTokenId(address, tokenId);
+      }
+    } else {
+      if (eventTypes) {
+        tokenDetails = await fetchEvents(address, [eventTypes]);
+      } else {
+        tokenDetails = await fetchEvents(address);
+      }
+    }
+
     let events = [];
 
     tokenDetails.events.nodes.forEach((event) => {

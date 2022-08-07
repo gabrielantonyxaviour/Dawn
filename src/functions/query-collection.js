@@ -13,12 +13,12 @@ const args = {
 
 const zdk = new ZDK(args);
 
-async function fetchCollectionStats(collectionAddress) {
-  return await zdk.collectionStatsAggregate({
-    collectionAddress,
-  });
+async function fetchCollection(address) {
+  return await zdk.collection({
+    address
+  })
 }
 
 module.exports = {
-  fetchCollectionStats
+  fetchCollection
 }
