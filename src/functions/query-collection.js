@@ -15,10 +15,16 @@ const zdk = new ZDK(args);
 
 async function fetchCollection(address) {
   return await zdk.collection({
-    address
-  })
+    address,
+  });
 }
 
+zdk
+  .collection({
+    address: "0x5180db8f5c931aae63c74266b211f580155ecac8",
+  })
+  .then((result) => console.log(JSON.stringify(result, null, 2)));
+
 module.exports = {
-  fetchCollection
-}
+  fetchCollection,
+};
