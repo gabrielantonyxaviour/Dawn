@@ -11,10 +11,4 @@ export const gettingStartedContent = [
     docSubtopic: "DAWN PLAY",
     docLink: "/docs/play-music",
   },
-  {
-    docNumber: "03",
-    docTitle: "Schedule events and save your favourites →",
-    docSubtopic: "DAWN EXTRAS",
-    docLink: "/docs/favourites",
-  },
 ];
