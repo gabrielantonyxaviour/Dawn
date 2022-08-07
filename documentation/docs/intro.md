@@ -17,3 +17,5 @@ Click **[here](https://docusaurus.new)** to add the bot in your server.
 
 - Administrator
 - Create Slash Commands
+
+## Setup
