@@ -1,8 +1,3 @@
----
-sidebar_position: 1
-title: Introduction
----
-
 # Dawn
 
 **View** and **listen** to NFTs using our user friendly discord bot built with **Zora Protocol**.
