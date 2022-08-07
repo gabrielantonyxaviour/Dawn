@@ -33,9 +33,23 @@ async function fetchTokens(collectionAddresses) {
   });
 }
 
-module.exports = {
-  fetchTokens
+async function fetchTokensWithTokenId(collectionAddresses, tokenId) {
+  return await zdk.tokens({
+    where: {
+      tokens: [
+        {
+          address: collectionAddresses,
+          tokenId,
+        },
+      ],
+    },
+  });
 }
+
+module.exports = {
+  fetchTokens,
+  fetchTokensWithTokenId,
+};
 
 // const zdk = new ZDK("https://api.zora.co/graphql");
 // const tokens = await fetchTokens(
