@@ -1,5 +1,5 @@
 const { ZDK, ZDKNetwork, ZDKChain } = require("@zoralabs/zdk");
-const { writeToFile } = require("../writeToFile")
+const { writeToFile } = require("../writeToFile");
 
 //---------------------- ERROR-------------------------
 const networkInfo = {
@@ -28,7 +28,7 @@ const zdk = new ZDK(args);
 
 // import { ZDK } from "@zoralabs/zdk";
 
-async function fetchNftCount(address) {
+async function fetchNftCountForCollection(address) {
   return await zdk.nftCount({
     where: {
       collectionAddresses: [address],
@@ -36,7 +36,15 @@ async function fetchNftCount(address) {
   });
 }
 
-module.exports = { fetchNftCount };
+async function fetchNftCountForOwnerAddress(address) {
+  return await zdk.nftCount({
+    where: {
+      ownerAddresses: [address],
+    },
+  });
+}
+
+module.exports = { fetchNftCountForCollection, fetchNftCountForOwnerAddress };
 
 // const zdk = new ZDK("https://api.zora.co/graphql");
 // const nftCount = await fetchNftCount(
