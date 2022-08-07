@@ -19,7 +19,7 @@ We also have a special feature where one can **play any music NFTs** in the voic
 
 Get started by **testing out our bot**.
 
-Click **[here](https://docusaurus.new)** to add the bot in your server.
+Click **[here](https://discord.com/api/oauth2/authorize?client_id=1005841480352550932&permissions=8&scope=bot)** to add the bot in your server.
 
 ## Permissions required
 
