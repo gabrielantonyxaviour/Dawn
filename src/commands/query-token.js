@@ -6,7 +6,6 @@ const {
   StylesButton,
 } = require("@devraelfreeze/discordjs-pagination");
 const { EmbedBuilder } = require("discord.js");
-const { writeToFile } = require("../writeToFile");
 const {
   joinVoiceChannel,
   createAudioPlayer,
@@ -41,7 +40,6 @@ module.exports = {
     await interaction.deferReply();
     try {
       let token = await fetchToken(address, tokenId);
-      writeToFile("query-audio-token", token);
       let audioToken = false;
       let audioURL = "";
       let embeds = [];
@@ -80,6 +78,10 @@ module.exports = {
             name: "MINT PRICE",
             value: `${token.token.token.mintInfo.price.usdcPrice.decimal} USDC`,
             inline: true,
+          },
+          {
+            name: 'BUY TOKEN',
+            value: `[Click Here.!](https://zora.co/collections/${token.token.token.tokenContract.collectionAddress}/${token.token.token.tokenId})`,
           }
         );
       embeds.push(embed);
@@ -93,7 +95,6 @@ module.exports = {
       }
 
       function JoinChannel(channel, url, volume) {
-        console.log(url);
         const connection = joinVoiceChannel({
           channelId: channel.id,
           guildId: channel.guildId,

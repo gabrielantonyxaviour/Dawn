@@ -65,7 +65,11 @@ module.exports = {
             { name: "COLLECTION ADDRESS", value: token.collection_address },
             { name: "OWNER ADDRESS", value: token.owner_address },
             { name: "NETWORK", value: token.network },
-            { name: "MINT PRICE", value: `${token.mint_price} USDC` }
+            { name: "MINT PRICE", value: `${token.mint_price} USDC` },
+            {
+              name: 'BUY TOKEN',
+              value: `[Click Here.!](https://zora.co/collections/${token.collection_address}/${token.token_id})`,
+            }
           );
         embeds.push(embed);
       });
