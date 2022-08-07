@@ -1,4 +1,5 @@
-import { ZDK, ZDKNetwork, ZDKChain } from "@zoralabs/zdk";
+const { ZDK, ZDKNetwork, ZDKChain } = require("@zoralabs/zdk");
+const { writeToFile } = require("../writeToFile")
 
 const networkInfo = {
   network: ZDKNetwork.Ethereum,
@@ -13,21 +14,26 @@ const args = {
 
 const zdk = new ZDK(args);
 // Refer: https://docs.zora.co/docs/zora-api/zdk#collectionstatsaggregate
-var collectionStatsAggregate = zdk
-  .collectionStatsAggregate({
-    collectionAddress: "0xCa21d4228cDCc68D4e23807E5e370C07577Dd152",
-  })
-  .then((result) => {
-    console.log(JSON.stringify(result, null, 2));
-  });
+// var collectionStatsAggregate = zdk
+//   .collectionStatsAggregate({
+//     collectionAddress: "0xCa21d4228cDCc68D4e23807E5e370C07577Dd152",
+//   })
+//   .then((result) => {
+//     writeToFile('query-collectionsStatsAggregate', result)
+//     console.log(JSON.stringify(result, null, 2));
+//   });
 
 // import { ZDK } from "@zoralabs/zdk";
 
-// async function fetchCollectionStats(zdk, collectionAddress) {
-//   return await zdk.collectionStatsAggregate({
-//     collectionAddress,
-//   });
-// }
+async function fetchCollectionStats(collectionAddress) {
+  return await zdk.collectionStatsAggregate({
+    collectionAddress,
+  });
+}
+
+module.exports = {
+  fetchCollectionStats
+}
 
 // const zdk = new ZDK("https://api.zora.co/graphql");
 // const collectionStats = await fetchCollectionStats(

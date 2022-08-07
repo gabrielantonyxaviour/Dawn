@@ -1,4 +1,4 @@
-import { ZDK, ZDKNetwork, ZDKChain } from "@zoralabs/zdk";
+const { ZDK, ZDKNetwork, ZDKChain } = require("@zoralabs/zdk");
 
 //---------------------- ERROR-------------------------
 const networkInfo = {
@@ -14,27 +14,26 @@ const args = {
 
 const zdk = new ZDK(args);
 //docs.zora.co/docs/zora-api/zdk#search
-zdk
-  .search({
-    query: "crypto",
-    pagination: {
-      limit: 2,
-    },
-  })
-  .then((result) => {
-    console.log(JSON.stringify(result, null, 2));
-  });
+// zdk
+//   .search({
+//     query: "crypto",
+//   })
+//   .then((result) => {
+//     writeToFile('query-search', result)
+//     // console.log(JSON.stringify(result, null, 2));
+//   });
 
 // import { ZDK } from "@zoralabs/zdk";
 
-// async function search(zdk, collectionAddresses) {
-//   return await zdk.search({
-//     query: "crypto",
-//     pagination: {
-//       limit: 2,
-//     },
-//   });
-// }
+async function search(key) {
+  return await zdk.search({
+    query: key,
+  });
+}
+
+module.exports = {
+  search,
+}
 
 // const zdk = new ZDK("https://api.zora.co/graphql");
 // const salesVolume = await search(

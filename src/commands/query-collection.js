@@ -1,35 +1,77 @@
-const { SlashCommandBuilder } = require("discord.js")
-const { fetchCollection } = require("../functions/query-collection")
-const { EmbedBuilder } = require('discord.js');
-const { pagination, TypesButtons, StylesButton } = require('@devraelfreeze/discordjs-pagination');
-
+const { SlashCommandBuilder } = require("discord.js");
+const { fetchCollection } = require("../functions/query-collection");
+const { EmbedBuilder } = require("discord.js");
+const {
+  pagination,
+  TypesButtons,
+  StylesButton,
+} = require("@devraelfreeze/discordjs-pagination");
 
 module.exports = {
   data: new SlashCommandBuilder()
-    .setName("query-collection")
-    .setDescription("Gets data for a specific NFT collection based on an address.")
+    .setName("dawn-nfcollections")
+    .setDescription(
+      "Gets data for a specific NFT collection based on an address."
+    )
     .addStringOption((option) =>
-      option.setName("address").setRequired(true).setDescription("The address of the collection")
+      option
+        .setName("address")
+        .setRequired(true)
+        .setDescription("The address of the collection")
     ),
   async execute(interaction) {
     let address = interaction.options.get("address");
     await interaction.deferReply();
     try {
       let details = await fetchCollection(address.value);
-      let embeds = []
+      let embeds = [];
       let embed = new EmbedBuilder()
-        .setTitle(`Collection Details for ${details?.name.length ? details?.name : "Unknown"}`)
-        .setDescription(details?.description.length ? details.description : "No description available.")
-        .setColor(0x00FFFF)
-        .setAuthor({ name: 'Zora', iconURL: 'https://zora.co/assets/og-image.png' })
-        .addFields(
-          { name: 'NETWORK', value: details?.networkInfo?.network.length ? details.networkInfo.network : "Unknown", inline: true },
-          { name: 'CHAIN', value: details?.networkInfo?.chain.length ? details.networkInfo.chain : "Unknown", inline: true },
-          { name: 'ADDRESS', value: details?.address?.length ? details.address : "Unknown", },
-          { name: 'SYMBOL', value: details?.symbol?.length ? details.symbol : "Unknown", inline: true },
-          { name: 'TOTAL SUPPLY', value: details.totalSupply ? details.totalSupply : "Unknown", inline: true },
+        .setTitle(
+          `Collection Details for ${
+            details?.name.length ? details?.name : "Unknown"
+          }`
         )
-      embeds.push(embed)
+        .setDescription(
+          details?.description.length
+            ? details.description
+            : "No description available."
+        )
+        .setColor(0x00ffff)
+        .setAuthor({
+          name: "Zora",
+          iconURL: "https://zora.co/assets/og-image.png",
+        })
+        .addFields(
+          {
+            name: "NETWORK",
+            value: details?.networkInfo?.network.length
+              ? details.networkInfo.network
+              : "Unknown",
+            inline: true,
+          },
+          {
+            name: "CHAIN",
+            value: details?.networkInfo?.chain.length
+              ? details.networkInfo.chain
+              : "Unknown",
+            inline: true,
+          },
+          {
+            name: "ADDRESS",
+            value: details?.address?.length ? details.address : "Unknown",
+          },
+          {
+            name: "SYMBOL",
+            value: details?.symbol?.length ? details.symbol : "Unknown",
+            inline: true,
+          },
+          {
+            name: "TOTAL SUPPLY",
+            value: details.totalSupply ? details.totalSupply : "Unknown",
+            inline: true,
+          }
+        );
+      embeds.push(embed);
 
       let paginationContent = await pagination({
         embeds: embeds, // Array of embeds objects
@@ -42,21 +84,24 @@ module.exports = {
         buttons: [
           {
             value: TypesButtons.previous,
-            label: 'Previous Page',
+            label: "Previous Page",
             style: StylesButton.Primary,
-            emoji: null
+            emoji: null,
           },
           {
             value: TypesButtons.next,
-            label: 'Next Page',
+            label: "Next Page",
             style: StylesButton.Success,
-            emoji: null
-          }
-        ]
+            emoji: null,
+          },
+        ],
       });
-      await interaction.editReply(paginationContent)
+      await interaction.editReply(paginationContent);
     } catch {
-      await interaction.editReply({ content: 'There was an error while executing this command!', ephemeral: true });
+      await interaction.editReply({
+        content: "There was an error while executing this command!",
+        ephemeral: true,
+      });
     }
-  }
-}
+  },
+};

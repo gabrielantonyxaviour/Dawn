@@ -1,37 +1,36 @@
 const { SlashCommandBuilder } = require("discord.js")
-const { fetchTokens } = require("../functions/query-tokens")
+const { search } = require("../functions/query-search")
 const { pagination, TypesButtons, StylesButton } = require('@devraelfreeze/discordjs-pagination');
 const { EmbedBuilder } = require('discord.js');
-const wait = require('node:timers/promises').setTimeout;
 
 
 
 module.exports = {
   data: new SlashCommandBuilder()
-    .setName("query-tokens")
-    .setDescription("Gets data on a group of tokens based on collection address.")
+    .setName("query-search")
+    .setDescription("Search for an NFT or collection based on a string input.")
     .addStringOption((option) =>
-      option.setName("address").setRequired(true).setDescription("The address of the collection")
+      option.setName("query").setRequired(true).setDescription("A text string to query with")
     ),
   async execute(interaction) {
-    let address = interaction.options.get("address").value
+    let query = interaction.options.get("query").value
     await interaction.deferReply();
     try {
-      let tokenDetails = await fetchTokens(address)
+      let tokenDetails = await search(query)
       let tokens = []
 
-      tokenDetails.tokens.nodes.forEach((token) => {
+      tokenDetails.search.nodes.forEach((token) => {
         tokens.push({
-          token_id: token.token.tokenId,
-          owner_address: token.token.owner,
-          name: token.token.name,
-          description: token.token.description,
-          collection_name: token.token.tokenContract.name,
-          collection_address: token.token.collectionAddress,
-          symbol: token.token.tokenContract.symbol,
-          network: token.token.tokenContract.network,
-          mint_price: token.token.mintInfo.price.usdcPrice.decimal,
-          thumbnail_url: token.token.image.mediaEncoding.thumbnail
+          token_id: token.tokenId ? token.tokenId : "Unknown",
+          owner_address: token.entity.mintInfo.originatorAddress ? token.entity.mintInfo.originatorAddress : "Unknown",
+          name: token.entity.tokenContract.name ? token.entity.tokenContract.name : "Unknown",
+          description: token.entity.tokenContract.description ? token.entity.tokenContract.description : "Unknown",
+          collection_name: token.name ? token.name : "Unknown",
+          collection_address: token.collectionAddress ? token.collectionAddress : "Unknown",
+          symbol: token.entity.symbol ? token.entity.symbol : "Unknown",
+          network: token.entity.tokenContract.network ? token.entity.tokenContract.network : "Unknown",
+          mint_price: token.entity.mintInfo.price.usdcPrice?.decimal ? token.entity.mintInfo.price.usdcPrice?.decimal : "Unknown",
+          thumbnail_url: token.entity.image.mediaEncoding.thumbnail ? token.entity.image.mediaEncoding.thumbnail : "https://zora.co/assets/og-image.png",
         })
       })
 
@@ -80,7 +79,7 @@ module.exports = {
         ]
       });
       await interaction.editReply(paginationContent)
-    } catch (err) {
+    } catch {
       await interaction.editReply({ content: 'There was an error while executing this command!', ephemeral: true });
     }
   }

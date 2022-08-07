@@ -1,4 +1,5 @@
-import { ZDK, ZDKNetwork, ZDKChain } from "@zoralabs/zdk";
+const { ZDK, ZDKNetwork, ZDKChain } = require("@zoralabs/zdk");
+const { writeToFile } = require("../writeToFile")
 
 //---------------------- ERROR-------------------------
 const networkInfo = {
@@ -14,25 +15,28 @@ const args = {
 
 const zdk = new ZDK(args);
 // refer https://docs.zora.co/docs/zora-api/zdk#ownercount
-zdk
-  .ownerCount({
-    where: {
-      collectionAddresses: ["0xc729Ce9bF1030fbb639849a96fA8BBD013680B64"],
-    },
-  })
-  .then((result) => {
-    console.log(JSON.stringify(result, null, 2));
-  });
+// zdk
+//   .ownerCount({
+//     where: {
+//       collectionAddresses: ["0xc729Ce9bF1030fbb639849a96fA8BBD013680B64"],
+//     },
+//   })
+//   .then((result) => {
+//     writeToFile('query-owner-count', result)
+//     console.log(JSON.stringify(result, null, 2));
+//   });
 
 // import { ZDK } from "@zoralabs/zdk";
 
-// async function fetchOwnerCount(address) {
-//   return await zdk.ownerCount({
-//     where: {
-//       collectionAddresses: [address],
-//     },
-//   });
-// }
+async function fetchOwnerCount(address) {
+  return await zdk.ownerCount({
+    where: {
+      collectionAddresses: [address],
+    },
+  });
+}
+
+module.exports = { fetchOwnerCount };
 
 // const zdk = new ZDK("https://api.zora.co/graphql");
 // const ownerCount = await fetchOwnerCount(

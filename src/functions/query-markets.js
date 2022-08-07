@@ -1,5 +1,5 @@
-import { ZDK, ZDKNetwork, ZDKChain } from "@zoralabs/zdk";
-
+const { ZDK, ZDKNetwork, ZDKChain } = require("@zoralabs/zdk");
+const { writeToFile } = require("../writeToFile");
 //---------------------- ERROR-------------------------
 const networkInfo = {
   network: ZDKNetwork.Ethereum,
@@ -13,29 +13,34 @@ const args = {
 };
 
 const zdk = new ZDK(args);
-// refer https://docs.zora.co/docs/zora-api/zdk#markets
-zdk
-  .markets({
-    where: {
-      collectionAddresses: ["0xc729Ce9bF1030fbb639849a96fA8BBD013680B64"],
-    },
-  })
-  .then((result) => {
-    console.log(JSON.stringify(result, null, 2));
-  });
-
-// import { ZDK } from "@zoralabs/zdk";
-
-// async function fetchMarkets(address) {
-//   return await zdk.markets({
+// // refer https://docs.zora.co/docs/zora-api/zdk#markets
+// zdk
+//   .markets({
 //     where: {
-//       collectionAddresses: [address],
+//       collectionAddresses: ["0xc729Ce9bF1030fbb639849a96fA8BBD013680B64"],
 //     },
-//     pagination: {
-//       limit: 4,
-//     },
+//   })
+//   .then((result) => {
+//     // writeToFile('query-markets', result)
+//     console.log(JSON.stringify(result, null, 2));
 //   });
-// }
+
+// // import { ZDK } from "@zoralabs/zdk";
+
+async function fetchMarkets(address) {
+  return await zdk.markets({
+    where: {
+      collectionAddresses: [address],
+    },
+    pagination: {
+      limit: 4,
+    },
+  });
+}
+
+module.exports = {
+  fetchMarkets,
+};
 
 // const zdk = new ZDK("https://api.zora.co/graphql");
 // const markets = await fetchMarkets(

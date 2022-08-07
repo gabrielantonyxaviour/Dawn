@@ -1,0 +1,12 @@
+{
+  "aggregateStat": {
+    "floorPrice": 0.02,
+    "ownerCount": 33991,
+    "nftCount": 56741,
+    "salesVolume": {
+      "chainTokenPrice": 766.7322981875939,
+      "usdcPrice": 1805953.7151100773,
+      "totalCount": 14197
+    }
+  }
+}

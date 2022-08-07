@@ -1,0 +1,452 @@
+{
+  "token": {
+    "__typename": "TokenWithFullMarketHistory",
+    "token": {
+      "__typename": "Token",
+      "tokenId": "5613",
+      "tokenContract": {
+        "name": "Zora",
+        "network": "ETHEREUM",
+        "description": null,
+        "collectionAddress": "0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7",
+        "symbol": "ZORA",
+        "chain": 1
+      },
+      "mintInfo": {
+        "price": {
+          "__typename": "PriceAtTime",
+          "blockNumber": 13408142,
+          "chainTokenPrice": {
+            "decimal": 0,
+            "raw": "0"
+          },
+          "nativePrice": {
+            "decimal": 0,
+            "raw": "0",
+            "currency": {
+              "address": "0x0000000000000000000000000000000000000000",
+              "decimals": 18,
+              "name": "ETH"
+            }
+          },
+          "usdcPrice": {
+            "decimal": 0,
+            "raw": "0"
+          }
+        },
+        "originatorAddress": "0x0655d3be9d9b61d51a918780cfdbb453642d3f4f",
+        "toAddress": "0x0655d3be9d9b61d51a918780cfdbb453642d3f4f",
+        "mintContext": {
+          "__typename": "TransactionInfo",
+          "blockNumber": 13408142,
+          "blockTimestamp": "2021-10-13T05:18:29+00:00",
+          "transactionHash": "0x24a3541f8fafa71f446fce9ad898b5002d6925095a352c48d10c4ce67117e332",
+          "logIndex": 113
+        }
+      },
+      "collectionAddress": "0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7",
+      "lastRefreshTime": "2022-06-01T16:16:08.519000+00:00",
+      "owner": "0xe468ce99444174bd3bbbed09209577d25d1ad673",
+      "name": "They Don’t Know                  (Screwed not Chopped)",
+      "description": "They Don’t Know (Screwed not Chopped)\n\n“They Don’t Know” is a sentimental love presentation. The song speaks on the ways of the world having the power to influence the development of a union. But if you are grounded in your beliefs and instill faith into your partner no distractions can taint your foresight. This song embodies not giving up. \n\nWritten by Pher & Jesse Boykins III\nProduced by Jesse Boykins III \nHere for you. \n#PherLovesYou",
+      "image": {
+        "size": null,
+        "url": "https://zora-prod.mypinata.cloud/ipfs/bafybeih55qia2p4zm5lnz6t2y2emnun434p5d7jj52pvh3xbudo6w6s52q",
+        "mimeType": "image/jpeg",
+        "mediaEncoding": {
+          "__typename": "ImageEncodingTypes",
+          "original": "https://api.zora.co/media/ETHEREUM-MAINNET/0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7/5613/image/original",
+          "large": "https://api.zora.co/media/ETHEREUM-MAINNET/0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7/5613/image/large",
+          "poster": "https://api.zora.co/media/ETHEREUM-MAINNET/0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7/5613/image/poster",
+          "thumbnail": "https://api.zora.co/media/ETHEREUM-MAINNET/0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7/5613/image/thumbnail"
+        }
+      },
+      "content": {
+        "size": null,
+        "url": "https://ipfs.io/ipfs/bafybeic4amboti24u4k3tzsrn5p6tkuysddrukrq4sext7w6nb5wfbemoy",
+        "mimeType": "audio/wav",
+        "mediaEncoding": {
+          "__typename": "AudioEncodingTypes",
+          "original": "https://api.zora.co/media/ETHEREUM-MAINNET/0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7/5613/content/original",
+          "large": "https://api.zora.co/media/ETHEREUM-MAINNET/0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7/5613/content/large"
+        }
+      },
+      "metadata": {
+        "body": {
+          "artist": "PHER",
+          "artwork": {
+            "info": {
+              "mimeType": "image/jpeg",
+              "uri": "https://ipfs.io/ipfs/bafybeih55qia2p4zm5lnz6t2y2emnun434p5d7jj52pvh3xbudo6w6s52q"
+            },
+            "isNft": false,
+            "nft": null
+          },
+          "duration": 175.44,
+          "mimeType": "audio/wav",
+          "notes": "They Don’t Know (Screwed not Chopped)\n\n“They Don’t Know” is a sentimental love presentation. The song speaks on the ways of the world having the power to influence the development of a union. But if you are grounded in your beliefs and instill faith into your partner no distractions can taint your foresight. This song embodies not giving up. \n\nWritten by Pher & Jesse Boykins III\nProduced by Jesse Boykins III \nHere for you. \n#PherLovesYou",
+          "project": null,
+          "title": "They Don’t Know                  (Screwed not Chopped)",
+          "trackNumber": null,
+          "version": "catalog-20210202",
+          "visualizer": null
+        },
+        "origin": {
+          "algorithm": "secp256k1",
+          "encoding": "rlp",
+          "signature": "0xe1fe4b20524137bd251cfbd90ab3ded4e090eb64869e7714eaea13804249d3e273d1be95e9fa2c51c5c27fc54e7b5a4fafcf7cc83e1258eff70d52a2302714e21b",
+          "publicKey": "0xc236541380fc0C2C05c2F2c6c52a21ED57c37952"
+        }
+      },
+      "tokenUrl": "https://ipfs.io/ipfs/bafybeiec7nmbi4tv2oo3nuhrq6cqtb27nfcht6ba2tlpznfw6gcvetr4ri",
+      "tokenUrlMimeType": "audio/wav",
+      "attributes": []
+    },
+    "sales": [
+      {
+        "saleContractAddress": "0xe468ce99444174bd3bbbed09209577d25d1ad673",
+        "transactionInfo": {
+          "blockNumber": 13477315,
+          "blockTimestamp": "2021-10-24T01:39:13+00:00",
+          "transactionHash": "0xfae17e884126e40f43044cd6fe6b2e01d9ec54a112c684ddf473a9b8085ed223",
+          "logIndex": 157
+        },
+        "buyerAddress": "0xf6aaada76ea7f044ffa028565b028740dce5389f",
+        "collectionAddress": "0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7",
+        "price": {
+          "blockNumber": 13477315,
+          "chainTokenPrice": {
+            "decimal": 1,
+            "raw": "1000000000000000000"
+          },
+          "nativePrice": {
+            "decimal": 1,
+            "raw": "1000000000000000000",
+            "currency": {
+              "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+              "decimals": 18,
+              "name": "WETH"
+            }
+          },
+          "usdcPrice": {
+            "decimal": 4133.723561938245,
+            "raw": "4133723561938245386240"
+          }
+        },
+        "sellerAddress": "0x0655d3be9d9b61d51a918780cfdbb453642d3f4f",
+        "tokenId": "5613"
+      }
+    ],
+    "events": [
+      {
+        "transactionInfo": {
+          "blockNumber": 15294745,
+          "blockTimestamp": "2022-08-07T10:56:15+00:00",
+          "transactionHash": "0xf44f145c110aa1ad143fc58c0e4ccabac4ae2998c3262c98fd5fea3a40af344b",
+          "logIndex": 434
+        },
+        "eventType": "APPROVAL_EVENT",
+        "collectionAddress": "0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7",
+        "tokenId": null,
+        "properties": {
+          "__typename": "ApprovalEvent"
+        }
+      },
+      {
+        "transactionInfo": {
+          "blockNumber": 15294738,
+          "blockTimestamp": "2022-08-07T10:55:15+00:00",
+          "transactionHash": "0x86ac81b2f3ff92fa7f02012a7e032e34283cad5a9bdb15f86e40876a53313cb3",
+          "logIndex": 421
+        },
+        "eventType": "APPROVAL_EVENT",
+        "collectionAddress": "0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7",
+        "tokenId": null,
+        "properties": {
+          "__typename": "ApprovalEvent"
+        }
+      },
+      {
+        "transactionInfo": {
+          "blockNumber": 15294712,
+          "blockTimestamp": "2022-08-07T10:48:19+00:00",
+          "transactionHash": "0xa0c03956600675d3cdb3d8506a16da6ea486286a47120055978404ff0cab61c1",
+          "logIndex": 104
+        },
+        "eventType": "APPROVAL_EVENT",
+        "collectionAddress": "0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7",
+        "tokenId": null,
+        "properties": {
+          "__typename": "ApprovalEvent"
+        }
+      },
+      {
+        "transactionInfo": {
+          "blockNumber": 15294655,
+          "blockTimestamp": "2022-08-07T10:36:16+00:00",
+          "transactionHash": "0xc33d5b4f628d6cbe7846c60b2a202e1940873c25f77ea0be8bc6bfe727d7f153",
+          "logIndex": 60
+        },
+        "eventType": "APPROVAL_EVENT",
+        "collectionAddress": "0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7",
+        "tokenId": null,
+        "properties": {
+          "__typename": "ApprovalEvent"
+        }
+      },
+      {
+        "transactionInfo": {
+          "blockNumber": 15294629,
+          "blockTimestamp": "2022-08-07T10:31:46+00:00",
+          "transactionHash": "0x05bf87cdde29cbae23b0400cc4ca7954c35556644c7f5734f08b1fb01f58c7a5",
+          "logIndex": 497
+        },
+        "eventType": "APPROVAL_EVENT",
+        "collectionAddress": "0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7",
+        "tokenId": null,
+        "properties": {
+          "__typename": "ApprovalEvent"
+        }
+      },
+      {
+        "transactionInfo": {
+          "blockNumber": 15294607,
+          "blockTimestamp": "2022-08-07T10:27:38+00:00",
+          "transactionHash": "0x21a79fe9815006a2eceef0824bee59e7329640ef9e796689344e3f6b7bb7cde6",
+          "logIndex": 174
+        },
+        "eventType": "APPROVAL_EVENT",
+        "collectionAddress": "0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7",
+        "tokenId": null,
+        "properties": {
+          "__typename": "ApprovalEvent"
+        }
+      },
+      {
+        "transactionInfo": {
+          "blockNumber": 15294452,
+          "blockTimestamp": "2022-08-07T09:49:47+00:00",
+          "transactionHash": "0x9a62ba1c89ccef61a39c72fe6409960ef78ef073ad26f6308d50d3bcf4f2a728",
+          "logIndex": 951
+        },
+        "eventType": "APPROVAL_EVENT",
+        "collectionAddress": "0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7",
+        "tokenId": null,
+        "properties": {
+          "__typename": "ApprovalEvent"
+        }
+      },
+      {
+        "transactionInfo": {
+          "blockNumber": 15294446,
+          "blockTimestamp": "2022-08-07T09:48:20+00:00",
+          "transactionHash": "0x476f14cdad7d6bffd2f7a1cdb7784d3f24dca3312957ebf7a160b3612555b080",
+          "logIndex": 356
+        },
+        "eventType": "APPROVAL_EVENT",
+        "collectionAddress": "0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7",
+        "tokenId": null,
+        "properties": {
+          "__typename": "ApprovalEvent"
+        }
+      },
+      {
+        "transactionInfo": {
+          "blockNumber": 15294440,
+          "blockTimestamp": "2022-08-07T09:47:35+00:00",
+          "transactionHash": "0xdd49921d8a526d8792f2c38ffe9109b93d413377b93d5c4116dc694c1fd9b7bf",
+          "logIndex": 397
+        },
+        "eventType": "APPROVAL_EVENT",
+        "collectionAddress": "0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7",
+        "tokenId": null,
+        "properties": {
+          "__typename": "ApprovalEvent"
+        }
+      },
+      {
+        "transactionInfo": {
+          "blockNumber": 15294429,
+          "blockTimestamp": "2022-08-07T09:45:10+00:00",
+          "transactionHash": "0xec4f8a03f471ebadca36439fb01d3c4693099cc7bdc0bb66b41ddc1e3b644a6d",
+          "logIndex": 392
+        },
+        "eventType": "APPROVAL_EVENT",
+        "collectionAddress": "0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7",
+        "tokenId": null,
+        "properties": {
+          "__typename": "ApprovalEvent"
+        }
+      }
+    ],
+    "markets": [
+      {
+        "collectionAddress": "0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7",
+        "marketAddress": "0xe468ce99444174bd3bbbed09209577d25d1ad673",
+        "marketType": "V2_AUCTION",
+        "transactionInfo": {
+          "blockNumber": 13492760,
+          "blockTimestamp": "2021-10-26T11:36:47+00:00",
+          "transactionHash": "0xc5029c87f1b6f6807dcc39d590d70426cffae48251436a023291aa1bfacd83f5",
+          "logIndex": 162
+        },
+        "price": {
+          "blockNumber": 13492760,
+          "chainTokenPrice": {
+            "decimal": 4,
+            "raw": "4000000000000000000"
+          },
+          "nativePrice": {
+            "decimal": 4,
+            "raw": "4000000000000000000",
+            "currency": {
+              "address": "0x0000000000000000000000000000000000000000",
+              "decimals": 18,
+              "name": "ETH"
+            }
+          },
+          "usdcPrice": {
+            "decimal": 16831.418679493898,
+            "raw": "16831418679493897748480"
+          }
+        },
+        "status": "ACTIVE",
+        "networkInfo": {
+          "chain": "MAINNET",
+          "network": "ETHEREUM"
+        },
+        "properties": {
+          "__typename": "V2Auction",
+          "firstBidTime": null,
+          "highestBidder": null,
+          "curator": "0xf6aaada76ea7f044ffa028565b028740dce5389f",
+          "collectionAddress": "0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7",
+          "curatorFeePercentage": 0,
+          "tokenId": "5613",
+          "auctionCurrency": "0x0000000000000000000000000000000000000000",
+          "duration": "86400",
+          "estimatedExpirationTime": null,
+          "v2AuctionStatus": "ACTIVE",
+          "tokenOwner": "0xf6aaada76ea7f044ffa028565b028740dce5389f",
+          "address": "0xe468ce99444174bd3bbbed09209577d25d1ad673",
+          "auctionId": "1951",
+          "approved": true,
+          "reservePrice": {
+            "blockNumber": 13492760,
+            "chainTokenPrice": {
+              "decimal": 4,
+              "raw": "4000000000000000000"
+            },
+            "nativePrice": {
+              "decimal": 4,
+              "raw": "4000000000000000000",
+              "currency": {
+                "address": "0x0000000000000000000000000000000000000000",
+                "decimals": 18,
+                "name": "ETH"
+              }
+            },
+            "usdcPrice": {
+              "decimal": 16831.418679493898,
+              "raw": "16831418679493897748480"
+            }
+          },
+          "highestBidPrice": null
+        }
+      },
+      {
+        "collectionAddress": "0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7",
+        "marketAddress": "0xe468ce99444174bd3bbbed09209577d25d1ad673",
+        "marketType": "V2_AUCTION",
+        "transactionInfo": {
+          "blockNumber": 13477315,
+          "blockTimestamp": "2021-10-24T01:39:13+00:00",
+          "transactionHash": "0xfae17e884126e40f43044cd6fe6b2e01d9ec54a112c684ddf473a9b8085ed223",
+          "logIndex": 157
+        },
+        "price": {
+          "blockNumber": 13477315,
+          "chainTokenPrice": {
+            "decimal": 0.512,
+            "raw": "512000000000000000"
+          },
+          "nativePrice": {
+            "decimal": 0.512,
+            "raw": "512000000000000000",
+            "currency": {
+              "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+              "decimals": 18,
+              "name": "WETH"
+            }
+          },
+          "usdcPrice": {
+            "decimal": 2116.466463712382,
+            "raw": "2116466463712381763584"
+          }
+        },
+        "status": "COMPLETED",
+        "networkInfo": {
+          "chain": "MAINNET",
+          "network": "ETHEREUM"
+        },
+        "properties": {
+          "__typename": "V2Auction",
+          "firstBidTime": "2021-10-22T22:59:17+00:00",
+          "highestBidder": "0xf6aaada76ea7f044ffa028565b028740dce5389f",
+          "curator": "0x589ffbbda0eacd5a9c2ba208b379c886b2630503",
+          "collectionAddress": "0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7",
+          "curatorFeePercentage": 20,
+          "tokenId": "5613",
+          "auctionCurrency": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+          "duration": "86400",
+          "estimatedExpirationTime": "2021-10-23T22:59:17+00:00",
+          "v2AuctionStatus": "COMPLETED",
+          "tokenOwner": "0x0655d3be9d9b61d51a918780cfdbb453642d3f4f",
+          "address": "0xe468ce99444174bd3bbbed09209577d25d1ad673",
+          "auctionId": "1636",
+          "approved": true,
+          "reservePrice": {
+            "blockNumber": 13408170,
+            "chainTokenPrice": {
+              "decimal": 1,
+              "raw": "1000000000000000000"
+            },
+            "nativePrice": {
+              "decimal": 1,
+              "raw": "1000000000000000000",
+              "currency": {
+                "address": "0x0000000000000000000000000000000000000000",
+                "decimals": 18,
+                "name": "ETH"
+              }
+            },
+            "usdcPrice": {
+              "decimal": 3514.3475749768363,
+              "raw": "3514347574976836534272"
+            }
+          },
+          "highestBidPrice": {
+            "blockNumber": 13470234,
+            "chainTokenPrice": {
+              "decimal": 1,
+              "raw": "1000000000000000000"
+            },
+            "nativePrice": {
+              "decimal": 1,
+              "raw": "1000000000000000000",
+              "currency": {
+                "address": "0x0000000000000000000000000000000000000000",
+                "decimals": 18,
+                "name": "ETH"
+              }
+            },
+            "usdcPrice": {
+              "decimal": 3969.171754139844,
+              "raw": "3969171754139844083712"
+            }
+          }
+        }
+      }
+    ]
+  }
+}

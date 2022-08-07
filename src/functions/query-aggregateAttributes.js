@@ -24,16 +24,28 @@ const zdk = new ZDK(args);
 
 // import { ZDK } from "@zoralabs/zdk";
 
-async function fetchAggregateAttributes(
-  collectionAddresses,
-) {
+async function fetchAggregateAttributes(collectionAddresses) {
   return await zdk.aggregateAttributes({
     where: {
       collectionAddresses,
     },
   });
 }
-
+async function fetchAggregateAttributesWithTokenId(
+  collectionAddresses,
+  tokenId
+) {
+  return await zdk.aggregateAttributes({
+    where: {
+      tokens: [
+        {
+          address: collectionAddresses,
+          tokenId,
+        },
+      ],
+    },
+  });
+}
 // const zdk = new ZDK("https://api.zora.co/graphql");
 // const aggregateAttributes = await fetchAggregateAttributes(
 //   zdk,
@@ -42,5 +54,6 @@ async function fetchAggregateAttributes(
 // console.log(JSON.stringify(aggregateAttributes, null, 2));
 
 module.exports = {
-  fetchAggregateAttributes
-}
+  fetchAggregateAttributes,
+  fetchAggregateAttributesWithTokenId,
+};
