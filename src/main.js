@@ -35,26 +35,3 @@ bot.on("interactionCreate", async (interaction) => {
 })
 
 bot.login(token)
-
-// params
-
-// query-collection = 0x5180db8F5c931aaE63c74266b211F580155ecac8
-// query-attributes = 0x5180db8F5c931aaE63c74266b211F580155ecac8
-// query-tokens = 0x5180db8F5c931aaE63c74266b211F580155ecac8
-// query-token = 0xabEFBc9fD2F806065b4f3C237d4b59D9A97Bcac7 , 3366
-// query-search = crypto
-// query-sales = 0x5180db8F5c931aaE63c74266b211F580155ecac8
-
-// completed
-
-// query aggregate attributes
-// query collections
-// query collection stats
-// query events
-// query-floor-price
-// query-nftcount
-// query owner
-// query sales
-// query search
-// query token
-// query tokens
