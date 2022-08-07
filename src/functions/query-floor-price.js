@@ -1,5 +1,5 @@
 const { ZDK, ZDKNetwork, ZDKChain } = require("@zoralabs/zdk");
-const { writeToFile } = require("../writeToFile")
+const { writeToFile } = require("../writeToFile");
 //---------------------- ERROR-------------------------
 const networkInfo = {
   network: ZDKNetwork.Ethereum,
@@ -15,31 +15,26 @@ const args = {
 const zdk = new ZDK(args);
 // refer https://docs.zora.co/docs/zora-api/zdk#floorprice
 
-// zdk
-//   .floorPrice({
-//     where: {
-//       collectionAddresses: ["0xc729Ce9bF1030fbb639849a96fA8BBD013680B64"],
-//     },
-//   })
-//   .then((result) => {
-//     writeToFile('query-floor-price', result)
-//     console.log(JSON.stringify(result, null, 2));
-//   });
-
-// import { ZDK } from "@zoralabs/zdk";
-
-async function fetchFloorPrice(addresses) {
+async function fetchFloorPrice(address) {
   return await zdk.floorPrice({
     where: {
-      collectionAddresses: [addresses],
+      collectionAddresses: [address],
     },
   });
 }
 
-module.exports = { fetchFloorPrice };
+async function fetchFloorPriceWithAttributes(address, traitType, traitValue) {
+  return await zdk.floorPrice({
+    where: {
+      collectionAddresses: [address],
+    },
+    attributes: [
+      {
+        traitType: traitType,
+        value: traitValue,
+      },
+    ],
+  });
+}
 
-// const zdk = new ZDK("https://api.zora.co/graphql");
-// const floorPrice = await fetchFloorPrice(
-//   "0x5180db8F5c931aaE63c74266b211F580155ecac8"
-// );
-// console.log(floorPrice);
+module.exports = { fetchFloorPrice, fetchFloorPriceWithAttributes };

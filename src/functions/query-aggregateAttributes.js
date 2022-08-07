@@ -10,7 +10,6 @@ const args = {
   endPoint: API_ENDPOINT,
   networks: [networkInfo],
 };
-
 const zdk = new ZDK(args);
 
 async function fetchAggregateAttributes(collectionAddresses) {
