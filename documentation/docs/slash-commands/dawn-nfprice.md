@@ -1,31 +1,21 @@
 ---
-sidebar_position: 5
+sidebar_position: 7
+title: dawn-nfprice
 ---
 
-# Deploy your site
+# dawn-nfprice
 
-Docusaurus is a **static-site-generator** (also called **[Jamstack](https://jamstack.org/)**).
+Gets **data** on the **cheapest** available **NFT** across all **Zora marketplaces**.
 
-It builds your site as simple **static HTML, JavaScript and CSS files**.
+## Syntax
 
-## Build your site
+`/dawn-nfprice <collection_address>`
 
-Build your site **for production**:
+## Parameters
 
-```bash
-npm run build
-```
-
-The static files are generated in the `build` folder.
-
-## Deploy your site
-
-Test your production build locally:
-
-```bash
-npm run serve
-```
-
-The `build` folder is now served at [http://localhost:3000/](http://localhost:3000/).
-
-You can now deploy the `build` folder **almost anywhere** easily, **for free** or very small cost (read the **[Deployment Guide](https://docusaurus.io/docs/deployment)**).
+| Name               | Explanation                               | Optional     |
+| ------------------ | ----------------------------------------- | ------------ |
+| collection_address | String of collection address to filter by | false        |
+| trait_type         | Trait type to filter by                   | true         |
+| trait_value        | Trait value to filter by                  | true         |
+## Example

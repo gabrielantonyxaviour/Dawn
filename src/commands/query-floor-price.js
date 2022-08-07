@@ -17,17 +17,17 @@ module.exports = {
       option
         .setName("address")
         .setRequired(true)
-        .setDescription("List of collection addresses to filter by")
+        .setDescription("String of collection address to filter by")
     )
     .addStringOption((option) =>
       option
         .setName("trait_type")
-        .setDescription("Trait type to filter by")
+        .setDescription("A string to set the trait type to return by")
     )
     .addStringOption((option) =>
       option
         .setName("trait_value")
-        .setDescription("trait value to filter by")
+        .setDescription("A string of a trait's possible value(s) to return by")
     ),
   async execute(interaction) {
     let address = interaction.options.get("address").value;

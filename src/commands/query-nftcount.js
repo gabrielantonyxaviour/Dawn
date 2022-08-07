@@ -15,7 +15,7 @@ module.exports = {
       option
         .setName("address")
         .setRequired(true)
-        .setDescription("List of collection addresses to filter by")
+        .setDescription("String of collection address to filter by")
     ),
   async execute(interaction) {
     let address = interaction.options.get("address").value;

@@ -17,7 +17,7 @@ module.exports = {
       option
         .setName("address")
         .setRequired(true)
-        .setDescription("List of collection addresses to filter by")
+        .setDescription("String of collection address to filter by")
     )
     .addStringOption((option) =>
       option
@@ -27,7 +27,7 @@ module.exports = {
     .addStringOption((option) =>
       option
         .setName("event_type")
-        .setDescription("List of all event types")
+        .setDescription("A String of EventType to filter by")
         .addChoices(
           { name: 'APPROVAL EVENT', value: 'APPROVAL_EVENT' },
           { name: 'TRANSFER EVENT', value: 'TRANSFER_EVENT' },

@@ -1,6 +1,6 @@
 ---
-sidebar_position: 1
-title: /dawn-nfprops
+sidebar_position: 8
+title: dawn-nfprops
 ---
 
 # dawn-nfprops
@@ -13,9 +13,9 @@ Gets **statistics** on all the **attributes** for a **collection**.
 
 ## Parameters
 
-| Name               | Explanation                                                  |
-| ------------------ | ------------------------------------------------------------ |
-| collection_address | Enter the collection address to view attributes data         |
-| token_id           | Enter the token Id in the collection to view attributes data |
+| Name               | Explanation                                                  | Optional
+| ------------------ | ------------------------------------------------------------ | ----------
+| collection_address | String of collection address to filter by                    | false
+| token_id           | A string for the tokenId to return a token for               | true
 
 ## Example

@@ -26,13 +26,13 @@ module.exports = {
       option
         .setName("address")
         .setRequired(true)
-        .setDescription("The address of the collection")
+        .setDescription("String of collection address to filter by")
     )
     .addStringOption((option) =>
       option
         .setName("token_id")
         .setRequired(true)
-        .setDescription("The ID of the token")
+        .setDescription("A string for the tokenId to return a token for")
     ),
   async execute(interaction) {
     let address = interaction.options.get("address").value;

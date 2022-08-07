@@ -1,21 +1,19 @@
 ---
-sidebar_position: 6
+sidebar_position: 2
+title: dawn-nfcount
 ---
 
-# Congratulations!
+# dawn-nfcount
 
-You have just learned the **basics of Docusaurus** and made some changes to the **initial template**.
+Gets **data** on the **total supply** of NFTs in a **collection**.
+## Syntax
 
-Docusaurus has **much more to offer**!
+`/dawn-nfcount <collection_address>`
 
-Have **5 more minutes**? Take a look at **[versioning](../tutorial-extras/manage-docs-versions.md)** and **[i18n](../tutorial-extras/translate-your-site.md)**.
+## Parameters
 
-Anything **unclear** or **buggy** in this tutorial? [Please report it!](https://github.com/facebook/docusaurus/discussions/4610)
+| Name               | Explanation                                                            | Optional
+| ------------------ | ---------------------------------------------------------------------- | ----------
+| collection_address | String of collection address to filter by	                            | false
 
-## What's next?
-
-- Read the [official documentation](https://docusaurus.io/).
-- Add a custom [Design and Layout](https://docusaurus.io/docs/styling-layout)
-- Add a [search bar](https://docusaurus.io/docs/search)
-- Find inspirations in the [Docusaurus showcase](https://docusaurus.io/showcase)
-- Get involved in the [Docusaurus Community](https://docusaurus.io/community/support)
+## Example

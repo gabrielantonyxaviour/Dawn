@@ -1,6 +1,6 @@
 ---
 sidebar_position: 4
-title: /dawn-nfevents
+title: dawn-nfevents
 ---
 
 # dawn-nfevents
@@ -13,10 +13,10 @@ Gets **statistics** on all the **attributes** for a **collection**.
 
 ## Parameters
 
-| Name               | Explanation                               | Type         |
-| ------------------ | ----------------------------------------- | ------------ |
-| collection_address | Enter the collection address to filter by | **required** |
-| token_id           | Enter the Token ID to filter by           | optional     |
-| event_type         | Enter the event type to filter by         | optional     |
+| Name               | Explanation                                              | Optional     |
+| ------------------ | ---------------------------------------------------------| ------------ |
+| collection_address | String of collection address to filter by                | false        |
+| token_id           | Enter the Token ID to filter by                          | true         |
+| event_type         | A String of EventType	                                  | true         |
 
 ## Example

@@ -18,12 +18,12 @@ module.exports = {
       option
         .setName("address")
         .setRequired(true)
-        .setDescription("The address of the collection")
+        .setDescription("String of collection address to filter by")
     )
     .addStringOption((option) =>
       option
         .setName("token_id")
-        .setDescription("The token_id of the NFT to get properties for")
+        .setDescription("A string for the tokenId to return a token for")
     ),
   async execute(interaction) {
     let address = interaction.options.get("address").value;

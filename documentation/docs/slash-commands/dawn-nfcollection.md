@@ -1,11 +1,11 @@
 ---
-sidebar_position: 3
-title: /dawn-nfcollection
+sidebar_position: 1
+title: dawn-nfcollection
 ---
 
 # dawn-nfcollection
 
-Gets **data** for the specified NFT **collection**.
+Gets **data** for the specified **NFT collection**.
 
 ## Syntax
 
@@ -13,8 +13,8 @@ Gets **data** for the specified NFT **collection**.
 
 ## Parameters
 
-| Name               | Explanation                                                            |
-| ------------------ | ---------------------------------------------------------------------- |
-| collection_address | Enter the collection address to data of all the NFTs in the collection |
+| Name               | Explanation                                                            | Optional
+| ------------------ | ---------------------------------------------------------------------- | ----------
+| collection_address | String of collection address to filter by	                            | false
 
 ## Example

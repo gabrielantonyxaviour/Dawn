@@ -1,6 +1,6 @@
 ---
-sidebar_position: 2
-title: /dawn-nfdata
+sidebar_position: 3
+title: dawn-nfdata
 ---
 
 # dawn-nfdata
@@ -13,8 +13,8 @@ Gets **statistics** for a specific collection such as **total supply**, **number
 
 ## Parameters
 
-| Name               | Explanation                                               |
-| ------------------ | --------------------------------------------------------- |
-| collection_address | Enter the collection address to view it's aggregate stats |
+| Name               | Explanation                                               | Optional
+| ------------------ | --------------------------------------------------------- |----------
+| collection_address | String of collection address to filter by	               | false
 
 ## Example
