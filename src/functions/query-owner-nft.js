@@ -1,5 +1,6 @@
 const { ZDK, ZDKNetwork, ZDKChain } = require("@zoralabs/zdk");
 
+//---------------------- ERROR-------------------------
 const networkInfo = {
   network: ZDKNetwork.Ethereum,
   chain: ZDKChain.Mainnet,
@@ -13,16 +14,12 @@ const args = {
 
 const zdk = new ZDK(args);
 
-async function fetchToken(address, tokenId) {
-  return await zdk.token({
-    token: {
-      address,
-      tokenId,
+async function fetchNftCountForOwnerAddress(address) {
+  return await zdk.nftCount({
+    where: {
+      ownerAddresses: [address],
     },
-    includeFullDetails: true,
   });
 }
 
-module.exports = {
-  fetchToken,
-}
+module.exports = { fetchNftCountForOwnerAddress };

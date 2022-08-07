@@ -1,5 +1,4 @@
 const { ZDK, ZDKNetwork, ZDKChain } = require("@zoralabs/zdk");
-const { writeToFile } = require("../writeToFile");
 //---------------------- ERROR-------------------------
 const networkInfo = {
   network: ZDKNetwork.Ethereum,

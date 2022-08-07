@@ -1,74 +1,41 @@
 const { SlashCommandBuilder } = require("discord.js");
+const { fetchNftCountForOwnerAddress } = require("../functions/query-owner-nft");
 const {
   pagination,
   TypesButtons,
   StylesButton,
 } = require("@devraelfreeze/discordjs-pagination");
 const { EmbedBuilder } = require("discord.js");
-const {
-  fetchCollectionStats,
-} = require("../functions/query-collectionsStatsAggregate");
 
 module.exports = {
   data: new SlashCommandBuilder()
-    .setName("dawn-nfdata")
-    .setDescription(
-      "Gets statistics for a specific collection such as total supply, number of owners, and sales volume."
-    )
+    .setName("dawn-nfowned")
+    .setDescription("Gets data on the total supply of NFTs owned by a user.")
     .addStringOption((option) =>
       option
         .setName("address")
         .setRequired(true)
-        .setDescription("The address of the collection")
+        .setDescription("List of collection addresses to filter by")
     ),
   async execute(interaction) {
     let address = interaction.options.get("address").value;
     await interaction.deferReply();
-    let tokenDetails = await fetchCollectionStats(address);
+    let tokenDetails = await fetchNftCountForOwnerAddress(address);
     try {
       let embeds = [];
+
       let embed = new EmbedBuilder()
-        .setTitle(`Collection Statistics`)
-        .setDescription(
-          "Statistics for a specific collection such as total supply, number of owners, and sales volume."
-        )
+        .setTitle(`NFT count for ${address}`)
+        .setDescription("Gets data on the total supply of NFTs owned by a user.")
         .setColor(0x00ffff)
         .setAuthor({
           name: "Zora",
           iconURL: "https://zora.co/assets/og-image.png",
         })
-        .addFields(
-          {
-            name: "FLOOR PRICE",
-            value: String(tokenDetails.aggregateStat.floorPrice),
-            inline: true,
-          },
-          {
-            name: "OWNER COUNT",
-            value: String(tokenDetails.aggregateStat.ownerCount),
-            inline: true,
-          },
-          {
-            name: "NFT COUNT",
-            value: String(tokenDetails.aggregateStat.nftCount),
-            inline: true,
-          },
-          {
-            name: "CHAIN TOKEN PRICE",
-            value: String(tokenDetails.aggregateStat.salesVolume.chainTokenPrice),
-            inline: true,
-          },
-          {
-            name: "USDC TOKEN PRICE",
-            value: String(tokenDetails.aggregateStat.salesVolume.usdcPrice),
-            inline: true,
-          },
-          {
-            name: "TOTAL COUNT",
-            value: String(tokenDetails.aggregateStat.salesVolume.totalCount),
-            inline: true,
-          }
-        );
+        .addFields({
+          name: "NFT COUNT",
+          value: String(tokenDetails.aggregateStat.nftCount),
+        });
       embeds.push(embed);
 
       let paginationContent = await pagination({

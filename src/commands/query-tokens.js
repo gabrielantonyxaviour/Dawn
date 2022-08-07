@@ -10,7 +10,7 @@ const wait = require("node:timers/promises").setTimeout;
 
 module.exports = {
   data: new SlashCommandBuilder()
-    .setName("dawn-nfview")
+    .setName("dawn-nftokens")
     .setDescription(
       "Gets data on a group of tokens based on collection address."
     )
@@ -37,7 +37,7 @@ module.exports = {
           collection_address: token.token.collectionAddress,
           symbol: token.token.tokenContract.symbol,
           network: token.token.tokenContract.network,
-          mint_price: token.token.mintInfo.price.usdcPrice.decimal,
+          mint_price: token.token.mintInfo.price.usdcPrice?.decimal,
           thumbnail_url: token.token.image.mediaEncoding.thumbnail,
         });
       });
