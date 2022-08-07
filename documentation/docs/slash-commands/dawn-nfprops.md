@@ -19,3 +19,4 @@ Gets **statistics** on all the **attributes** for a **collection**.
 | token_id           | A string for the tokenId to return a token for               | true
 
 ## Example
+![Example Here](./img/nfprops.png)

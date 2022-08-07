@@ -18,3 +18,4 @@ title: dawn-nfsearch
 | query              | A text string to query with               | false        |
 
 ## Example
+![Example Here](./img/nfsearch.png)

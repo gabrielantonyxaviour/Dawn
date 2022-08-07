@@ -18,3 +18,4 @@ Gets the **number** of **unique addresses** that own an **NFT** from a **collect
 | collection_address | String of collection address to filter by | false        |
 
 ## Example
+![Example Here](./img/nfliquidity.png)

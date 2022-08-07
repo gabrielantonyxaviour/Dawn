@@ -18,3 +18,4 @@ Gets **data** on the **total supply** of NFTs owned by a **user**.
 | wallet_address     | String of owner address to filter by      | false        |
 
 ## Example
+![Example Here](./img/nfowned.png)

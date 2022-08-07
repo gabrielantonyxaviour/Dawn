@@ -20,3 +20,4 @@ Gets **statistics** on all the **attributes** for a **collection**.
 | event_type         | A String of EventType	                                  | true         |
 
 ## Example
+![Example Here](./img/nfevents.png)
