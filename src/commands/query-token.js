@@ -1,58 +1,103 @@
-const { SlashCommandBuilder } = require("discord.js")
-const { fetchToken } = require("../functions/query-token")
-const { pagination, TypesButtons, StylesButton } = require('@devraelfreeze/discordjs-pagination');
-const { EmbedBuilder } = require('discord.js');
-const { writeToFile } = require("../writeToFile")
-const { joinVoiceChannel, createAudioPlayer, createAudioResource, AudioPlayerStatus, VoiceConnectionStatus, entersState, NoSubscriberBehavior } = require('@discordjs/voice');
-
-
+const { SlashCommandBuilder } = require("discord.js");
+const { fetchToken } = require("../functions/query-token");
+const {
+  pagination,
+  TypesButtons,
+  StylesButton,
+} = require("@devraelfreeze/discordjs-pagination");
+const { EmbedBuilder } = require("discord.js");
+const { writeToFile } = require("../writeToFile");
+const {
+  joinVoiceChannel,
+  createAudioPlayer,
+  createAudioResource,
+  AudioPlayerStatus,
+  VoiceConnectionStatus,
+  entersState,
+  NoSubscriberBehavior,
+} = require("@discordjs/voice");
 
 module.exports = {
   data: new SlashCommandBuilder()
-    .setName("query-token")
-    .setDescription("Gets data on a single NFT given a contract address and tokenId")
-    .addStringOption(option =>
-      option.setName("address").setRequired(true).setDescription("The address of the collection"))
-    .addStringOption(option =>
-      option.setName("token_id").setRequired(true).setDescription("The ID of the token")),
+    .setName("dawn-nftview")
+    .setDescription(
+      "Gets data on a single NFT given a contract address and tokenId"
+    )
+    .addStringOption((option) =>
+      option
+        .setName("address")
+        .setRequired(true)
+        .setDescription("The address of the collection")
+    )
+    .addStringOption((option) =>
+      option
+        .setName("token_id")
+        .setRequired(true)
+        .setDescription("The ID of the token")
+    ),
   async execute(interaction) {
-    let address = interaction.options.get("address").value
-    let tokenId = interaction.options.get("token_id").value
+    let address = interaction.options.get("address").value;
+    let tokenId = interaction.options.get("token_id").value;
     await interaction.deferReply();
     // try {
 
     // } catch (err) {
     //   await interaction.editReply({ content: 'There was an error while executing this command!', ephemeral: true });
     // }
-    let token = await fetchToken(address, tokenId)
-    writeToFile('query-audio-token', token)
+    let token = await fetchToken(address, tokenId);
+    writeToFile("query-audio-token", token);
     let audioToken = false;
     let audioURL = "";
-    let embeds = []
+    let embeds = [];
     let embed = new EmbedBuilder()
       .setTitle(`Token Details for ${token.token.token.name}`)
       .setDescription(token.token.token.description)
       .setThumbnail(token.token.token.content.mediaEncoding.thumbnail)
-      .setColor(0x00FFFF)
-      .setAuthor({ name: 'Zora', iconURL: 'https://zora.co/assets/og-image.png' })
+      .setColor(0x00ffff)
+      .setAuthor({
+        name: "Zora",
+        iconURL: "https://zora.co/assets/og-image.png",
+      })
       .addFields(
-        { name: 'TOKEN ID', value: token.token.token.tokenId, inline: true },
-        { name: 'COLLECTION NAME', value: token.token.token.tokenContract.name, inline: true },
-        { name: 'SYMBOL', value: token.token.token.tokenContract.symbol, inline: true },
-        { name: 'COLLECTION ADDRESS', value: token.token.token.tokenContract.collectionAddress },
-        { name: 'OWNER ADDRESS', value: token.token.token.owner },
-        { name: 'NETWORK', value: token.token.token.tokenContract.network, inline: true },
-        { name: 'MINT PRICE', value: `${token.token.token.mintInfo.price.usdcPrice.decimal} USDC`, inline: true },
-      )
-    embeds.push(embed)
+        { name: "TOKEN ID", value: token.token.token.tokenId, inline: true },
+        {
+          name: "COLLECTION NAME",
+          value: token.token.token.tokenContract.name,
+          inline: true,
+        },
+        {
+          name: "SYMBOL",
+          value: token.token.token.tokenContract.symbol,
+          inline: true,
+        },
+        {
+          name: "COLLECTION ADDRESS",
+          value: token.token.token.tokenContract.collectionAddress,
+        },
+        { name: "OWNER ADDRESS", value: token.token.token.owner },
+        {
+          name: "NETWORK",
+          value: token.token.token.tokenContract.network,
+          inline: true,
+        },
+        {
+          name: "MINT PRICE",
+          value: `${token.token.token.mintInfo.price.usdcPrice.decimal} USDC`,
+          inline: true,
+        }
+      );
+    embeds.push(embed);
 
-    if (token.token.token.content.mediaEncoding.__typename === 'AudioEncodingTypes') {
+    if (
+      token.token.token.content.mediaEncoding.__typename ===
+      "AudioEncodingTypes"
+    ) {
       audioToken = true;
       audioURL = token.token.token.content.url;
     }
 
     function JoinChannel(channel, url, volume) {
-      console.log(url)
+      console.log(url);
       const connection = joinVoiceChannel({
         channelId: channel.id,
         guildId: channel.guildId,
@@ -64,33 +109,40 @@ module.exports = {
         },
       });
       let resource = createAudioResource(url, { inlineVolume: true });
-      connection.subscribe(player)
+      connection.subscribe(player);
       resource.volume.setVolume(volume);
-      connection.on(VoiceConnectionStatus.Ready, () => { console.log("ready"); player.play(resource); })
-      connection.on(VoiceConnectionStatus.Disconnected, async (oldState, newState) => {
-        try {
-          console.log("Disconnected.")
-          await Promise.race([
-            entersState(connection, VoiceConnectionStatus.Signalling, 5_000),
-            entersState(connection, VoiceConnectionStatus.Connecting, 5_000),
-          ]);
-        } catch (error) {
-          connection.destroy();
-        }
+      connection.on(VoiceConnectionStatus.Ready, () => {
+        console.log("ready");
+        player.play(resource);
       });
-      player.on('error', error => {
-        console.error(`Error: ${error.message} with resource ${error.resource.metadata.title}`);
+      connection.on(
+        VoiceConnectionStatus.Disconnected,
+        async (oldState, newState) => {
+          try {
+            console.log("Disconnected.");
+            await Promise.race([
+              entersState(connection, VoiceConnectionStatus.Signalling, 5_000),
+              entersState(connection, VoiceConnectionStatus.Connecting, 5_000),
+            ]);
+          } catch (error) {
+            connection.destroy();
+          }
+        }
+      );
+      player.on("error", (error) => {
+        console.error(
+          `Error: ${error.message} with resource ${error.resource.metadata.title}`
+        );
         player.play(getNextResource());
       });
       player.on(AudioPlayerStatus.Playing, () => {
-        console.log('The audio player has started playing!');
+        console.log("The audio player has started playing!");
       });
-      player.on('idle', () => {
+      player.on("idle", () => {
         connection.destroy();
-      })
+      });
       player.play(resource);
     }
-
 
     let paginationContent = await pagination({
       embeds: embeds, // Array of embeds objects
@@ -103,29 +155,31 @@ module.exports = {
       buttons: [
         {
           value: TypesButtons.previous,
-          label: 'Previous Page',
+          label: "Previous Page",
           style: StylesButton.Primary,
-          emoji: null
+          emoji: null,
         },
         {
           value: TypesButtons.next,
-          label: 'Next Page',
+          label: "Next Page",
           style: StylesButton.Success,
-          emoji: null
-        }
-      ]
+          emoji: null,
+        },
+      ],
     });
-    await interaction.editReply(paginationContent)
+    await interaction.editReply(paginationContent);
     if (audioToken) {
       // console.log(audioURL)
-      await interaction.followUp('This is a Audio Token Join a VC to listen to the audio')
-      let voiceChannel = interaction.member.voice.channel
+      await interaction.followUp(
+        "This is a Audio Token Join a VC to listen to the audio"
+      );
+      let voiceChannel = interaction.member.voice.channel;
       // console.log(interaction.member.voice.channel)
       if (!voiceChannel) {
-        await interaction.followUp("Please join a voice channel and try again")
+        await interaction.followUp("Please join a voice channel and try again");
       } else {
-        JoinChannel(voiceChannel, audioURL, 0.5)
+        JoinChannel(voiceChannel, audioURL, 0.5);
       }
     }
-  }
-}
+  },
+};

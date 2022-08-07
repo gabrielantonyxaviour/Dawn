@@ -9,7 +9,7 @@ const { EmbedBuilder } = require("discord.js");
 
 module.exports = {
   data: new SlashCommandBuilder()
-    .setName("query-sales-volume")
+    .setName("dawn-nfsalesvolume")
     .setDescription(
       "Gets the number of unique addresses that own an NFT from a collection."
     )

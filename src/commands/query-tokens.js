@@ -1,24 +1,31 @@
-const { SlashCommandBuilder } = require("discord.js")
-const { fetchTokens } = require("../functions/query-tokens")
-const { pagination, TypesButtons, StylesButton } = require('@devraelfreeze/discordjs-pagination');
-const { EmbedBuilder } = require('discord.js');
-const wait = require('node:timers/promises').setTimeout;
-
-
+const { SlashCommandBuilder } = require("discord.js");
+const { fetchTokens } = require("../functions/query-tokens");
+const {
+  pagination,
+  TypesButtons,
+  StylesButton,
+} = require("@devraelfreeze/discordjs-pagination");
+const { EmbedBuilder } = require("discord.js");
+const wait = require("node:timers/promises").setTimeout;
 
 module.exports = {
   data: new SlashCommandBuilder()
-    .setName("query-tokens")
-    .setDescription("Gets data on a group of tokens based on collection address.")
+    .setName("dawn-nfview")
+    .setDescription(
+      "Gets data on a group of tokens based on collection address."
+    )
     .addStringOption((option) =>
-      option.setName("address").setRequired(true).setDescription("The address of the collection")
+      option
+        .setName("address")
+        .setRequired(true)
+        .setDescription("The address of the collection")
     ),
   async execute(interaction) {
-    let address = interaction.options.get("address").value
+    let address = interaction.options.get("address").value;
     await interaction.deferReply();
     try {
-      let tokenDetails = await fetchTokens(address)
-      let tokens = []
+      let tokenDetails = await fetchTokens(address);
+      let tokens = [];
 
       tokenDetails.tokens.nodes.forEach((token) => {
         tokens.push({
@@ -31,30 +38,37 @@ module.exports = {
           symbol: token.token.tokenContract.symbol,
           network: token.token.tokenContract.network,
           mint_price: token.token.mintInfo.price.usdcPrice.decimal,
-          thumbnail_url: token.token.image.mediaEncoding.thumbnail
-        })
-      })
+          thumbnail_url: token.token.image.mediaEncoding.thumbnail,
+        });
+      });
 
-      let embeds = []
+      let embeds = [];
 
       tokens.forEach((token) => {
         let embed = new EmbedBuilder()
           .setTitle(`Token Details for ${token.name}`)
           .setDescription(token.description)
           .setThumbnail(token.thumbnail_url)
-          .setColor(0x00FFFF)
-          .setAuthor({ name: 'Zora', iconURL: 'https://zora.co/assets/og-image.png' })
+          .setColor(0x00ffff)
+          .setAuthor({
+            name: "Zora",
+            iconURL: "https://zora.co/assets/og-image.png",
+          })
           .addFields(
-            { name: 'TOKEN ID', value: token.token_id, inline: true },
-            { name: 'COLLECTION NAME', value: token.collection_name, inline: true },
-            { name: 'SYMBOL', value: token.symbol, inline: true },
-            { name: 'COLLECTION ADDRESS', value: token.collection_address },
-            { name: 'OWNER ADDRESS', value: token.owner_address },
-            { name: 'NETWORK', value: token.network },
-            { name: 'MINT PRICE', value: `${token.mint_price} USDC` },
-          )
-        embeds.push(embed)
-      })
+            { name: "TOKEN ID", value: token.token_id, inline: true },
+            {
+              name: "COLLECTION NAME",
+              value: token.collection_name,
+              inline: true,
+            },
+            { name: "SYMBOL", value: token.symbol, inline: true },
+            { name: "COLLECTION ADDRESS", value: token.collection_address },
+            { name: "OWNER ADDRESS", value: token.owner_address },
+            { name: "NETWORK", value: token.network },
+            { name: "MINT PRICE", value: `${token.mint_price} USDC` }
+          );
+        embeds.push(embed);
+      });
 
       let paginationContent = await pagination({
         embeds: embeds, // Array of embeds objects
@@ -67,21 +81,24 @@ module.exports = {
         buttons: [
           {
             value: TypesButtons.previous,
-            label: 'Previous Page',
+            label: "Previous Page",
             style: StylesButton.Primary,
-            emoji: null
+            emoji: null,
           },
           {
             value: TypesButtons.next,
-            label: 'Next Page',
+            label: "Next Page",
             style: StylesButton.Success,
-            emoji: null
-          }
-        ]
+            emoji: null,
+          },
+        ],
       });
-      await interaction.editReply(paginationContent)
+      await interaction.editReply(paginationContent);
     } catch (err) {
-      await interaction.editReply({ content: 'There was an error while executing this command!', ephemeral: true });
+      await interaction.editReply({
+        content: "There was an error while executing this command!",
+        ephemeral: true,
+      });
     }
-  }
-}
+  },
+};
