@@ -18,3 +18,5 @@ Gets **data** for the specified **NFT collection**.
 | collection_address | String of collection address to filter by	                            | false
 
 ## Example
+
+![Example Here](./img/nfcollection.png)

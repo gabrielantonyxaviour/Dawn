@@ -19,3 +19,4 @@ Gets **data** on the **cheapest** available **NFT** across all **Zora marketplac
 | trait_type         | Trait type to filter by                   | true         |
 | trait_value        | Trait value to filter by                  | true         |
 ## Example
+![Example Here](./img/nfprice.png)

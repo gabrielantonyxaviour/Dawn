@@ -76,7 +76,7 @@ module.exports = {
             { name: "COLLECTION ADDRESS", value: token.collection_address },
             { name: "OWNER ADDRESS", value: token.owner_address },
             { name: "NETWORK", value: token.network },
-            { name: "MINT PRICE", value: `${token.mint_price} USDC` }
+            { name: "MINT PRICE", value: `${String(token.mint_price)} USDC` }
           );
         embeds.push(embed);
       });

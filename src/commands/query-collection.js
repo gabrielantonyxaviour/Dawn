@@ -57,16 +57,16 @@ module.exports = {
           },
           {
             name: "ADDRESS",
-            value: details?.address?.length ? details.address : "Unknown",
+            value: details?.address?.length ? String(details.address) : "Unknown",
           },
           {
             name: "SYMBOL",
-            value: details?.symbol?.length ? details.symbol : "Unknown",
+            value: details?.symbol?.length ? String(details.symbol) : "Unknown",
             inline: true,
           },
           {
             name: "TOTAL SUPPLY",
-            value: details.totalSupply ? details.totalSupply : "Unknown",
+            value: details.totalSupply ? String(details.totalSupply) : "Unknown",
             inline: true,
           }
         );

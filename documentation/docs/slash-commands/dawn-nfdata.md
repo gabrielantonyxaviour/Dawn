@@ -18,3 +18,4 @@ Gets **statistics** for a specific collection such as **total supply**, **number
 | collection_address | String of collection address to filter by	               | false
 
 ## Example
+![Example Here](./img/nfdata.png)

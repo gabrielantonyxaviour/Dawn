@@ -24,3 +24,4 @@ Dawn can also play music in your voice channel.
 Try  `/dawn-nftoken 0xabefbc9fd2f806065b4f3c237d4b59d9a97bcac7 5613`
 
 ## Example
+![Example Here](./img/nftoken.png)

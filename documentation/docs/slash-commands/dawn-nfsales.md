@@ -18,3 +18,4 @@ Gets **sales data** for any **NFT** across **multiple marketplaces**.
 | collection_address | String of collection address to filter by | false        |
 
 ## Example
+![Example Here](./img/nfsales.png)

@@ -17,3 +17,5 @@ Gets **data** on the **total supply** of NFTs in a **collection**.
 | collection_address | String of collection address to filter by	                            | false
 
 ## Example
+![Example Here](./img/nfcount.png)
+
