@@ -13,7 +13,6 @@ const args = {
 };
 
 const zdk = new ZDK(args);
-// refer https://docs.zora.co/docs/zora-api/zdk#floorprice
 
 async function fetchFloorPrice(address) {
   return await zdk.floorPrice({

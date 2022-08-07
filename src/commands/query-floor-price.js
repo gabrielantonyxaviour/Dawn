@@ -1,5 +1,5 @@
 const { SlashCommandBuilder } = require("discord.js");
-const { fetchFloorPrice } = require("../functions/query-floor-price");
+const { fetchFloorPrice, fetchFloorPriceWithAttributes } = require("../functions/query-floor-price");
 const {
   pagination,
   TypesButtons,
@@ -18,11 +18,28 @@ module.exports = {
         .setName("address")
         .setRequired(true)
         .setDescription("List of collection addresses to filter by")
+    )
+    .addStringOption((option) =>
+      option
+        .setName("trait_type")
+        .setDescription("Trait type to filter by")
+    )
+    .addStringOption((option) =>
+      option
+        .setName("trait_value")
+        .setDescription("trait value to filter by")
     ),
   async execute(interaction) {
     let address = interaction.options.get("address").value;
+    let traitType = interaction.options.get("trait_type")?.value;
+    let traitValue = interaction.options.get("trait_value")?.value;
     await interaction.deferReply();
-    let tokenDetails = await fetchFloorPrice(address);
+    let tokenDetails;
+    if (traitType && traitValue) {
+      tokenDetails = await fetchFloorPriceWithAttributes(address, traitType, traitValue);
+    } else {
+      tokenDetails = await fetchFloorPrice(address);
+    }
     let embeds = [];
 
     let embed = new EmbedBuilder()
