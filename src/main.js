@@ -1,7 +1,7 @@
 const dotenv = require("dotenv")
 dotenv.config()
 
-const { Client, Collection, GatewayIntentBits, Intents } = require("discord.js")
+const { Client, Collection, GatewayIntentBits, ActivityType } = require("discord.js")
 const fs = require("fs")
 const path = require("path")
 
@@ -18,6 +18,7 @@ for (const file of commandFiles) {
 }
 
 bot.once("ready", () => {
+  bot.user.setActivity('Zora', { type: ActivityType.Watching })
   console.log("Bot is on and Up...!")
 })
 
