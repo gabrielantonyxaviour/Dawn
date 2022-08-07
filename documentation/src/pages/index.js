@@ -15,7 +15,7 @@ export default function Home() {
       <div>
         <img
           src={HeroLogo}
-          style={{ width: "250px", height: "200px" }}
+          style={{ width: "250px", height: "300px" }}
           className={styles.logoText}
         />
         <h2 className={styles.headerSubtitle}>
